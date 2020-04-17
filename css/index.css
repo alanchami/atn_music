@@ -1,85 +1,166 @@
-body{
-    background-color:white;
-}
-.logo{
-    width: 130px;
-    height: 80px;
-}
-.container{
+
+ul, li {
     padding: 0;
-    position: relative;
-    width: 1350px;
-    height:120px ;
-    background-color:rgb(252, 217, 224);
-    display: flex;
-    z-index: auto;
+    margin: 0;
+    list-style: none inside;
 }
-.container li{
-    display: inline;
-    text-decoration: none;
-    list-style: none;
-    text-decoration: none;
-    padding:1px;
-    padding-left: 100px;
-    padding-top: 20px;
-    margin: auto 0;
+ul.slider {
+    position:relative; /*Necesitamos que el ul sea relativo*/
 }
-li a{
-    text-decoration: none;
-    color: black;
+ul.slider li {
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: absolute; /*Posicionamos en absoluto los <li>*/
+    left: 0px;
+    top: 0px;
+    margin:50px;
+    padding:50px;
+    border:2px solid red;
+    background:#fff;
 }
-ul{
-    display: flex;
+ul.slider li:first-child {
+    opacity: 1000; /*Mostramos el primer <li>*/
+}
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+nav {
+    position:relative;
+    top:200px;
+    left:50px;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;
     
 }
-h3{
-    border: dotted black 2px;
-    padding: 2px;
-}
-   
-.nena{
-    position: relative;
-    width: 1102px;
-    padding: 10px;
-    padding-left: 0px;
-}
-.do{
-    width: 80px;
-    height: 80px;
-}
-.re{
-    width: 80px;
-    height: 80px;
-}
-.yatra{
-    padding-left: 1110px;
-width: 240px;
-height:138px;
-position: absolute;
-top: 300px;
 
+ul, li {
+    box-sizing: border-box;
+}
+
+ul.slider {
+    padding: 10px;
+}
+
+ul.slider li {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: gray;
+    opacity: 0; 
+    transition: opacity .5s;
+    padding-top: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: calc( 1.5rem + 1vw );
+    text-align: center;
+}
+
+#slide1 {
+    background-color: grey;
+    color: #fff;
+}
+
+#slide2 {
+    background-color:grey;
+    color: #00324b;
+}
+
+#slide3 {
+    background-color: grey;
+    color: #00324b;
+}
+
+#slide4 {
+    background-color: grey;
+    color: #65bce8;
+}
+
+#slide5 {
+    background-color: grey;
+    color: #00324b;
+}
+
+nav {
+    width: 100vw;
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    box-sizing: border:box;
+}
+
+nav a {
+    font-size: calc( 1.2rem + 1vw );
+    text-decoration: none;
+    font-weight: bold;
+    color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    flex-grow: 1;
+    text-align: center;
+    border-top: 5px solid pink;
+    border-right: 1px solid pink;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+nav li:last-child a {
+    border-right: 0;
+}
+
+nav a:hover {
+    background-color: #00324b;
+    color: #fff;
+    border-top-color: #65bce8;
+}
+
+nav a:active {
+    border-top-color: #f90;
+    background: #f90;
+    color: #00324b;
 }
 .ariana{
-    width: 240px;
-    height: 138px;
-    padding-left: 1110px;
-    position: absolute;
-    top: 138px;
-   
+    margin-top: 1px;
+    width: 450px;
+    border-top: solid pink 4px;
+    border-left: solid pink 4px;
+    border-right: solid black 4px;
+    border-bottom: solid black 4px;
 }
-.shawn{
-    width: 240px;
-    height: 138px;
-    padding-left: 1110px;
-    position: absolute;
-    top: 460px;
+.yatra{
+    margin-top: 1px;
+    width: 450px;
+    border-top: solid pink 4px;
+    border-left: solid pink 4px;
+    border-right: solid black 4px;
+    border-bottom: solid black 4px;
 }
-
-
-
-
-
-
-
-
-
+.camilo{
+    margin-top: 1px;
+    width: 450px;
+    border-top: solid pink 4px;
+    border-left: solid pink 4px;
+    border-right: solid black 4px;
+    border-bottom: solid black 4px;
+}

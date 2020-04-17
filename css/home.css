@@ -1,0 +1,98 @@
+body{
+    background-color:grey;
+}
+
+.logo{
+    width: 130px;
+    height: 80px;
+}
+.container{
+    padding: 0;
+    position: relative;
+    width: 1350px;
+    height:120px ;
+    background-color:rgb(252, 217, 224);
+    display: flex;
+    z-index: auto;
+}
+.container li{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    padding:1px;
+    padding-left: 100px;
+    padding-top: 20px;
+    margin: auto 0;
+}
+li a{
+    text-decoration: none;
+    color: pink;
+}
+ul{
+    display: flex;
+    
+}
+h3{
+    border: double pink 4px;
+    background-color: black;
+    padding: 2px;
+    color:pink;
+}
+   
+.nena{
+    position: relative;
+    width: 1102px;
+    padding: 10px;
+    padding-left: 0px;
+    
+}
+.do{
+    width: 80px;
+    height: 80px;
+}
+.re{
+    width: 80px;
+    height: 80px;
+}
+.yatra{
+width: 250px;
+height: 175px;
+border: solid pink 1px;
+
+}
+.ariana{
+ width: 250px;
+height: 175px;
+border: solid pink 1px;
+}
+.shawn{
+    width: 256px;
+    height: 175px;
+    border: solid pink 1px;
+}
+.top3{
+    border: double pink 4px;
+    margin-top: 20px;
+    padding: 14px;
+    background-color: black;
+    position: relative;
+}
+.guitarra{
+    
+    width: 50px;
+    margin-top: 10px;
+   
+}
+.container2{
+    margin-top: 0px;
+    padding: 14px;
+    background-color: black;
+    height: 60px;
+    width: 1311px;
+    position: relative;
+}
+h1{
+    color: pink;
+    margin-top: 10px;
+}
