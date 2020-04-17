@@ -1,0 +1,84 @@
+body{
+    background-color:white;
+}
+.logo{
+    width: 130px;
+    height: 80px;
+}
+.container{
+    position: relative;
+    width: 1350px;
+    height:120px ;
+    background-color:rgb(252, 217, 224);
+    display: flex;
+    z-index: auto;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    padding:1px;
+    padding-left: 200px;
+    padding-top: 20px;
+    margin: auto 0;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+} 
+   
+.nena{
+    position: relative;
+    width: 1102px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.do{
+    width: 80px;
+    height: 80px;
+}
+.re{
+    width: 80px;
+    height: 80px;
+}
+.yatra{
+    padding-left: 1110px;
+width: 240px;
+height:138px;
+position: absolute;
+top: 300px;
+
+}
+.ariana{
+    width: 240px;
+    height: 138px;
+    padding-left: 1110px;
+    position: absolute;
+    top: 255px;
+   
+}
+.shawn{
+    width: 240px;
+    height: 138px;
+    padding-left: 1110px;
+    position: absolute;
+    top: 460px;
+   
+}
+
+.top{
+    background-color: white;
+    width: 190px;
+    position: relative;
+    padding-left: 1100px;
+}
+
+
+
+
+
+
+
