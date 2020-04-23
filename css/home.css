@@ -1,5 +1,6 @@
 body{
-    background-color:grey;
+    background-color: black;
+    
 }
 
 .logo{
@@ -8,12 +9,10 @@ body{
 }
 .container{
     padding: 0;
-    position: relative;
     width: 1350px;
     height:120px ;
-    background-color:rgb(252, 217, 224);
+    background-color:pink;
     display: flex;
-    z-index: auto;
 }
 .container li{
     display: inline;
@@ -39,15 +38,7 @@ h3{
     padding: 2px;
     color:pink;
 }
-   
-.nena{
-    position: relative;
-    width: 802px;
-    padding: 10px;
-    padding-left: 250px;
- 
-   
-}
+
 .do{
     width: 80px;
     height: 80px;
@@ -86,12 +77,12 @@ border: solid pink 1px;
    
 }
 .container2{
-    margin-top: 0px;
     padding: 14px;
-    background-color:rgb(121, 120, 120);
+    background-color:black;
     height: 60px;
     width: 1321px;
-    position: relative;
+    position: absolute;
+
 }
 h1{
     color: pink;
@@ -103,6 +94,8 @@ h1{
 width: 45%;
 margin: auto;
 overflow: hidden;
+border: solid pink 4px;
+position: relative;
 }
 
 .slider ul {
@@ -136,4 +129,7 @@ width: 100%;
 100% {margin-left: -300%;}
 }
 
+.search{
+    
+}
 
