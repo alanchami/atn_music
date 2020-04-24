@@ -1,42 +1,57 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 body{
-    background-color: black;
-    
+    background-image: url(../img2/fondo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo{
-    width: 130px;
-    height: 80px;
+    width: 150px;
+    height: 110px;
 }
+
 .container{
-    padding: 0;
-    width: 1350px;
+    width: 1355px;
     height:120px ;
-    background-color:pink;
     display: flex;
+    background-color: black;
+    
 }
-.container li{
-    display: inline;
+.textos{
+    padding-left: 850px;
+    display:flex;
+    text-align: right;
     text-decoration: none;
     list-style: none;
     text-decoration: none;
-    padding:1px;
-    padding-left: 100px;
     padding-top: 20px;
     margin: auto 0;
 }
+
+.rock{
+    color: aqua;
+    padding-top: 35px;    
+    margin-top: 10px;
+    padding-left: 150px;
+}
 li a{
     text-decoration: none;
-    color: pink;
+    color: aqua;
+    
+  
 }
 ul{
     display: flex;
-   
 }
+
 h3{
-    border: double pink 4px;
+   
     background-color: black;
-    padding: 2px;
-    color:pink;
+    color: aqua;
+    padding: 9px;
 }
 
 .do{
@@ -47,55 +62,13 @@ h3{
     width: 80px;
     height: 80px;
 }
-.yatra{
-width: 250px;
-height: 175px;
-border: solid pink 1px;
-
-}
-.ariana{
- width: 250px;
-height: 175px;
-border: solid pink 1px;
-}
-.shawn{
-    width: 256px;
-    height: 175px;
-    border: solid pink 1px;
-}
-.top3{
-    border: double pink 4px;
-    margin-top: 20px;
-    padding: 14px;
-    background-color: black;
-    position: relative;
-}
-.guitarra{
-   
-    width: 50px;
-    margin-top: 10px;
-   
-}
-.container2{
-    padding: 14px;
-    background-color:black;
-    height: 60px;
-    width: 1321px;
-    position: absolute;
-
-}
-h1{
-    color: pink;
-    margin-top: 10px;
-}
 
 
 .slider {
-width: 45%;
+width: 50%;
 margin: auto;
 overflow: hidden;
-border: solid pink 4px;
-position: relative;
+border: solid black 4px;
 }
 
 .slider ul {
@@ -132,4 +105,60 @@ width: 100%;
 .search{
     
 }
+#logo-deezer{
+    width: 100px;
+}
+.box{
+    padding-left: 380px;
+}
+.container-1 input#search{
+    width: 600px;
+    height: 50px;
+    background:black;
+    border: none;
+    font-size: 10pt;
+    padding-left: 45px;
+    color:aqua;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-transition: background .55s ease;
+-moz-transition: background .55s ease;
+-ms-transition: background .55s ease;
+-o-transition: background .55s ease;
+transition: background .55s ease;
+  }
+  .container-1 input#search::-webkit-input-placeholder {
+    color: aqua;
+ }
+  
+ .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+ }
+  
+ .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+ }
+  
+ .container-1 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+ }
+ .container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+  }
+  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: black;
+  }
+
+
+
+
+
 
