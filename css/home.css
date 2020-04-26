@@ -167,18 +167,53 @@ transition: background .55s ease;
     
     
 }
-.deezer{
-    width: 250px;
-    position: absolute;
-}
-.footer2 li{
+.alumnos {
+    display: flex;
     text-decoration: none;
     list-style-type: none;
     color: aqua;
     font-size: x-large;
-    padding-left: 250px;
-    padding-top: 50px;
+    padding-left: 780px;
+    margin: auto 0;
 }
+.alumnos li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.deezer{
+    width: 250px;
+    position: absolute;
+}
+.todo{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+width: 1300px;
+height: 700px;
+margin-top: 40px;
+gap: 30px;
+}
+.artistas{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.788); 
+    margin-left: 30px;
+}
+.albunes{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.nuevos-lanzamientos{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.tra{
+    color: aqua;
+    background-color: aqua;
+}
+
 
 
 
