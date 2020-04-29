@@ -1,4 +1,6 @@
-
+body {
+    background-image: url(../img/fondoartistas.jpg);
+}
 ul, li {
     padding: 0;
     margin: 0;

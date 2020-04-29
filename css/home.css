@@ -18,7 +18,8 @@ body{
     width: 1340px;
     height:120px ;
     display: flex;
-    background-color: black;
+    background-color: black
+    font-family: fantasy;
     
 }
 .textos{
@@ -263,6 +264,10 @@ border-radius: 50%;
 padding-top: 70px;
 }
 
+@media(max-width:556px)
+{ 
+
+}
 
 
 
