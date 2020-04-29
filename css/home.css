@@ -105,9 +105,7 @@ width: 100%;
 100% {margin-left: -300%;}
 }
 
-.search{
-    
-}
+
 #logo-deezer{
     width: 100px;
 }
@@ -241,13 +239,11 @@ h2{
     padding-left: 270px;
     padding-right: 5px;
 }
-h3{
-    
-}
+
 .yatradiv{
     display: flex;
 }
-.nuevoslanzamientos{
+.topartistas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 5px;
@@ -261,8 +257,19 @@ height: 320px;
 border-radius: 50%;
 }
 .newlanza{
-padding-top: 70px;
+border:  solid black 4px;
+margin-top: 40px;
+color: black;
 }
+.nuevoslanzamientos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5px;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
 
 @media(max-width:556px)
 { 
