@@ -260,8 +260,11 @@ height: 320px;
 border-radius: 50%;
 }
 .newlanza{
-padding-top: 70px;
+border:  solid black 4px;
+margin-top: 40px;
+color: black;
 }
+
 
 
 
