@@ -1,5 +1,7 @@
 body {
     background-image: url(../img2/fondo\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 ul, li {
     padding: 0;
