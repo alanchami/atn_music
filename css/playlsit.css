@@ -1,0 +1,144 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../img2/fondo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 150px;
+    height: 110px;
+}
+.container{
+    width: 1346px;
+    height:120px ;
+    display: flex;
+    background-color: black;
+    position: fixed;
+}
+.textos{
+    
+    padding-left: 790px;
+    display:flex;
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+    margin: auto 0;
+}
+
+li a{
+    text-decoration: none;
+    color: aqua;
+    
+  
+}
+ul{
+    display: flex;
+}
+
+.container h3{
+   
+    background-color: black;
+    color: aqua;
+    padding: 9px;
+}
+.box{
+    padding-left: 380px;
+}
+
+  .slider {
+    width: 50%;
+    height: 377px;
+    margin: auto;
+    overflow: hidden;
+    border: solid black 4px;
+    }
+    
+    .slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: cambio 20s infinite alternate linear;
+    }
+    
+    .slider li {
+    width: 100%;
+    list-style: none;
+    }
+    
+    .slider img {
+    width: 100%;
+    }
+     
+    .grid-container{
+        margin-top: 50px;
+        padding-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center; 
+        background-color: rgba(79, 155, 155, 0.356);
+        
+        
+    }
+    .pop{
+        padding-left: 110px;
+    }
+    .jazz{
+        padding-left: 110px;
+    }
+    .smusic{
+        padding-left: 77px;
+    }
+    .trap{
+        padding-left: 100px;
+    }
+    .regga{
+        padding-left: 79px;
+    }
+    .electro{
+        padding-left: 75px;
+    }
+    .rock{
+        padding-left: 60px;
+    }
+    h4 {
+         color: black;
+        text-decoration: turquoise;
+        font-size: 22px;
+        padding-left: 30px;
+        
+    }
+    .genero { 
+        padding: 20px;
+        
+    }
+    .imagen {
+        width: 200px;
+        height: 180px;
+        gap: 40px;
+        padding-left: 30px;
+    }
+    .generos{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .arriba{
+        border: solid black 4px;
+        background-color: black;
+        color: aqua;
+    }
+    .abajo{
+        margin-top: 50px;
+        border: solid black 4px;
+        background-color: black;
+        color: aqua;
+    }
+    
