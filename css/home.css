@@ -15,14 +15,13 @@ body{
 }
 
 .container{
-    width: 1340px;
+    width: 1346px;
     height:120px ;
     display: flex;
     background-color: black
-    font-family: fantasy;
-    
 }
 .textos{
+    
     padding-left: 790px;
     display:flex;
     text-align: right;
@@ -33,12 +32,6 @@ body{
     margin: auto 0;
 }
 
-.rock{
-    color: aqua;
-    padding-top: 35px;    
-    margin-top: 10px;
-    padding-left: 150px;
-}
 li a{
     text-decoration: none;
     color: aqua;
@@ -56,14 +49,6 @@ ul{
     padding: 9px;
 }
 
-.do{
-    width: 80px;
-    height: 80px;
-}
-.re{
-    width: 80px;
-    height: 80px;
-}
 
 
 .slider {
@@ -90,21 +75,7 @@ list-style: none;
 .slider img {
 width: 100%;
 }
-
-@keyframes cambio {
-0% {margin-left: 0;}
-20% {margin-left: 0;}
-
-25% {margin-left: -100%;}
-45% {margin-left: -100%;}
-
-50% {margin-left: -200%;}
-70% {margin-left: -200%;}
-
-75% {margin-left: -300%;}
-100% {margin-left: -300%;}
-}
-
+ 
 
 #logo-deezer{
     width: 100px;
@@ -239,28 +210,28 @@ h2{
     padding-left: 270px;
     padding-right: 5px;
 }
-
-.yatradiv{
-    display: flex;
-}
-.topartistas{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 5px;
-    gap: 20px;
-    margin-top: 30px;
-}
-.bunny{
-    margin-left: 5px;
-width: 410px;
-height: 320px;
-border-radius: 50%;
-}
 .newlanza{
+overflow: hidden;
 border:  solid black 4px;
 margin-top: 40px;
 color: black;
-<<<<<<< HEAD
+}
+.nuevoslanzamientos img:hover{
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -ms-transition: margin 0.5s ease-out;
+    transition: margin 0.5s ease-out;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5px;
+    gap: 20px;
+    margin-top: 30px;
+}
+.inolvidable{
+    margin-left: 5px;
+    width: 390px;
+    height: 290px;
+    
 }
 .nuevoslanzamientos{
     display: grid;
@@ -268,17 +239,7 @@ color: black;
     margin-left: 5px;
     gap: 20px;
     margin-top: 30px;
-=======
->>>>>>> 2fdad8f012091bb2b2be70588ef7d9863b79899a
 }
-.nuevoslanzamientos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 5px;
-    gap: 20px;
-    margin-top: 30px;
-}
-
 
 
 
