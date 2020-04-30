@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/fondoartistas.jpg);
+    background-image: url(../img2/fondo\ 4.jpg);
 }
 ul, li {
     padding: 0;
@@ -35,7 +35,7 @@ body, html {
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     overflow:hidden;
     
 }
@@ -49,15 +49,14 @@ ul.slider {
 }
 
 ul.slider li {
-    width: 100vw;
+    width:100vw;
     height: 100vh;
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: gray;
+    background-image: url(../img2/fondo\ 4.jpg);
     opacity: 0; 
     transition: opacity .5s;
-    padding-top: 30vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: calc( 1.5rem + 1vw );
@@ -65,28 +64,28 @@ ul.slider li {
 }
 
 #slide1 {
-    background-color: grey;
-    color: #fff;
+    background-color: black;
+    color:aqua;
 }
 
 #slide2 {
-    background-color:grey;
-    color: #00324b;
+    background-color:black;
+    color: aqua;
 }
 
 #slide3 {
-    background-color: grey;
-    color: #00324b;
+    background-color: black;
+    color: aqua;
 }
 
 #slide4 {
-    background-color: grey;
-    color: #65bce8;
+    background-color: black;
+    color: aqua;
 }
 
 #slide5 {
-    background-color: grey;
-    color: #00324b;
+    background-color: black;
+    color: aqua;
 }
 
 nav {
@@ -116,13 +115,13 @@ nav a {
     font-size: calc( 1.2rem + 1vw );
     text-decoration: none;
     font-weight: bold;
-    color: pink;
+    color: aqua;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.8;
     flex-grow: 1;
     text-align: center;
-    border-top: 5px solid pink;
-    border-right: 1px solid pink;
+    border-top: 5px solid aqua;
+    border-right: 1px solid aqua;
     flex-wrap: wrap;
     position: relative;
 }
@@ -132,9 +131,9 @@ nav li:last-child a {
 }
 
 nav a:hover {
-    background-color: #00324b;
+    background-color: rgba(175, 238, 238, 0.377);
     color: #fff;
-    border-top-color: #65bce8;
+    border-top-color:white;
 }
 
 nav a:active {
@@ -143,26 +142,33 @@ nav a:active {
     color: #00324b;
 }
 .ariana{
-    margin-top: 1px;
-    width: 450px;
-    border-top: solid pink 4px;
-    border-left: solid pink 4px;
-    border-right: solid black 4px;
-    border-bottom: solid black 4px;
+    margin-bottom: 200px;
+    width: 530px;
+    border-top: solid white 4px;
+    border-left: solid powderblue 4px;
+    border-right: solid powderblue 4px;
+    border-bottom: solid white 4px;
 }
 .yatra{
     margin-top: 1px;
-    width: 450px;
-    border-top: solid pink 4px;
-    border-left: solid pink 4px;
-    border-right: solid black 4px;
-    border-bottom: solid black 4px;
+    width: 350px;
+    border-top: solid white 4px;
+    border-left: solid powderblue 4px;
+    border-right: solid powderblue 4px;
+    border-bottom: solid white 4px;
 }
 .camilo{
     margin-top: 1px;
-    width: 450px;
-    border-top: solid pink 4px;
-    border-left: solid pink 4px;
-    border-right: solid black 4px;
-    border-bottom: solid black 4px;
+    width: 350px;
+    border-top: solid white 4px;
+    border-left: solid powderblue 4px;
+    border-right: solid powderblue 4px;
+    border-bottom: solid white 4px;
+}
+.texto1{
+    color: white;
+    margin: 0;
+}
+h4{
+    margin-top: 0;
 }
