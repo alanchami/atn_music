@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img2/yatrafondo.jpg);
+    background-image: url(../img2/fondobb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -57,7 +57,7 @@ h2 {
     font-size: 60px;
 } 
 h3 {
-    color: white;
+    color: aqua;
     font-size: 20px;
 }
 
