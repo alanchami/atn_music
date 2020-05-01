@@ -19,7 +19,6 @@ body{
     height:120px ;
     display: flex;
     background-color: black;
-    position: fixed;
 }
 .textos{
     
@@ -48,6 +47,7 @@ ul{
     background-color: black;
     color: aqua;
     padding: 9px;
+   
 }
 
 .slider {
@@ -74,7 +74,21 @@ list-style: none;
 .slider img {
 width: 100%;
 }
- 
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
 #logo-deezer{
     width: 100px;
 }
@@ -82,7 +96,7 @@ width: 100%;
     padding-left: 380px;
 }
 .container-1 input#search{
-    margin-top: 160px;
+    margin-top: 60px;
     width: 600px;
     height: 50px;
     background:black;
@@ -117,7 +131,7 @@ transition: background .55s ease;
  }
  .container-1 .icon{
     position: absolute;
-    margin-top: 170px;
+    margin-top: 70px;
     margin-left: 10px;
     z-index: 1;
   }
@@ -183,21 +197,6 @@ gap: 30px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: rgba(0, 0, 0, 0.904);
 }
-
-
-td{
-    border: solid aqua 2px;
-}
-table tbody tr:nth-child(odd){
-    background-color:rgba(51, 255, 221, 0.699);
-    height: 77px;
-    color:black;
-}
-table tbody tr:nth-child(even){
-    background-color:rgba(6, 6, 66, 0.719);
-    height: 77px;
-    color: white;
-}
 h2{
     color: white;
 }
@@ -211,8 +210,8 @@ h2{
 overflow: hidden;
 border:  solid black 4px;
 margin-top: 40px;
-color: black;
-font-family: cursive;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgba(29, 24, 24, 0.486);
 }
 .newlanza a{
     text-decoration: none;
