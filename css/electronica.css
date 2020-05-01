@@ -54,7 +54,7 @@ ul{
 .electronica {
     display: flex;
     flex-direction: column;
-    width: 105%;
+    width: 1350px;
     height: 200%;
     background-image: url(../img2/fondoazul.jpg);
     border-radius: 15px;
@@ -97,4 +97,9 @@ audio{
     color: black;
     width: 800px;
     padding-left: 300px;
+}
+.regge{
+    padding-top: 30px;
+    display: block;
+    margin: auto;
 }
