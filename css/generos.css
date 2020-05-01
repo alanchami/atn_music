@@ -22,13 +22,12 @@ li a{
 }
 
 .textos{
-    padding-left: 760px;
+    padding-left: 740px;
     display:flex;
     text-align: right;
     text-decoration: none;
     list-style: none;
     text-decoration: none;
-    padding-top: 20px;
     margin: auto 0;
 }
 ul{
