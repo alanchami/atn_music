@@ -22,7 +22,7 @@ body {
 
 
 .textos{
-    padding-left: 560px;
+    padding-left: 780px;
     display:flex;
     text-align: right;
     text-decoration: none;
@@ -104,6 +104,18 @@ h4 {
    text-decoration: underline;
 }
 .albunes h3{
+    vertical-align: text-bottom;
     padding-left: 160px;
     color:white;
+}
+svg{
+margin: 0 auto;
+}
+.yatraci{
+    border-radius: 50%;
+    border: solid black 2px;
+    width: 500px;    
+    display: block;
+    margin: auto;
+    margin-top: 20px;
 }

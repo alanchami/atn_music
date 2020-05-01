@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+body {
+    background-image: url(../img/fondoartistas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+
+.container{
+    width: 1350px;
+    height:120px ;
+    display: flex; 
+    background-color: black;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.textos{
+    padding-left: 760px;
+    display:flex;
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+    margin: auto 0;
+} 
+ul{
+    display: flex;
+}
+
+.container h3{
+   
+    background-color: black;
+    color: aqua;
+    padding: 9px;
+}
+.footer2{
+    width: 1364px;
+    height:120px ;
+    display: flex;
+    background-color: black;
+    margin-top: 50px;
+    padding-bottom: 0%;
+    
+    
+}
+.alumnos {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: aqua;
+    font-size: x-large;
+    padding-left: 780px;
+    margin: auto 0;
+}
+.alumnos li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.deezer{
+    width: 250px;
+    position: absolute;
+}

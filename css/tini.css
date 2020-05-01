@@ -116,3 +116,11 @@ h4 {
 width: 200px;
 margin-top: 20px;
 }
+.yatraci{
+    border-radius: 50%;
+    border: solid black 2px;
+    width: 500px;    
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
