@@ -61,11 +61,6 @@ h3 {
     font-size: 20px;
 }
 
-.carouselExampleCaptions {
-    padding-left: 700px;
-    padding-right: 700px;
-    overflow: hidden;
-}
 .carousel-item {
   width: 250px;
   height: 300px;
