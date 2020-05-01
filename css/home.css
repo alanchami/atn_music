@@ -183,21 +183,6 @@ gap: 30px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: rgba(0, 0, 0, 0.904);
 }
-
-
-td{
-    border: solid aqua 2px;
-}
-table tbody tr:nth-child(odd){
-    background-color:rgba(51, 255, 221, 0.699);
-    height: 77px;
-    color:black;
-}
-table tbody tr:nth-child(even){
-    background-color:rgba(6, 6, 66, 0.719);
-    height: 77px;
-    color: white;
-}
 h2{
     color: white;
 }

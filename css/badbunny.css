@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body {
     background-image: url(../img/fondoartistas.jpg);
     background-repeat: no-repeat;
@@ -42,6 +45,7 @@ ul{
     padding: 9px;
 }
 h1 { 
+    margin-top: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 35px;
     color: white;
@@ -50,28 +54,22 @@ h1 {
 
 }
 h2 {
+    margin: 0;
+    margin-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-style: italic;
     font-variant: small-caps;
     font-size: 60px;
 } 
-h3 {
+.shufo h3 {
+    margin: 0;
+    margin-top: 5px;
     color: white;
     font-size: 20px;
 }
 
-.carouselExampleCaptions {
-    padding-left: 700px;
-    padding-right: 700px;
-    overflow: hidden;
-}
-.carousel-item {
-  width: 250px;
-  height: 300px;
-  margin-left: 600px;
-  margin-right: 200px;
-}
+
 .grid-container{
     padding-left: 10px;
     display: grid;
@@ -101,4 +99,19 @@ h4 {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 30px;
    text-decoration: underline;
+}
+.albunes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.albunes img{
+    padding-left: 100px;
+width: 240px;
+height: 200px;
+margin-top: 20px;
+}
+.albunes h3{
+    font-size: 20px;
+    padding-left: 175px;
+    color:white;
 }
