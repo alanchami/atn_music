@@ -1,6 +1,12 @@
-document.addEventListener('DOMContentLoaded',()=>{
-const elementosCarousel = document.querySelectorAll('.carousel');
-M.Carousel.init(elementosCarousel, {
-    duration:150
-} );
-});
+function saludar(nombre){
+    let saludoGeneral = 'Bienvenido' + nombre;
+    console.log(saludoGeneral);
+    
+}
+
+var miVar = 'Alan';
+
+let nombre = 'Alan';
+
+saludar(miVar);
+saludar(nombre)
