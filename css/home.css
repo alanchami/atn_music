@@ -253,10 +253,10 @@ background-color: rgba(29, 24, 24, 0.486);
 
 
 
-@media(max-width:375px)
+@media(max-width:450px)
 { 
 .container{
-    width: 335px;
+    width: 435px;
 }
 .logo{
     margin left:0;
@@ -268,7 +268,7 @@ background-color: rgba(29, 24, 24, 0.486);
     font-size: 8px;
 }
 .slider{
-    margin-left: 35px;
+    margin-left: 75px;
     width: 250px;
     height: 148px;
 }
@@ -276,12 +276,29 @@ background-color: rgba(29, 24, 24, 0.486);
     height: 100%;
 }
 .box{
-    padding-left: 20px;
+    padding-left: 60px;
 }
 .container-1 input#search{
     width: 300px;
 }
-
+.newlanza{
+    width: 410px;
+}
+.nuevoslanzamientos{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.footer2{
+    width: 400px;
+}
+.alumnos{
+    padding-left: 139px;
+    font-size: small;
+}
+.deezer{
+    width: 150px;
+    height: 120px;
+}
 
 
 

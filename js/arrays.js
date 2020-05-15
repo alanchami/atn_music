@@ -1,4 +1,4 @@
-let nombre = prompt('¿como te llamas?');
+let nombre = promt('¿como te llamas?');
 
 let retorno = saludar(nombre);
 
