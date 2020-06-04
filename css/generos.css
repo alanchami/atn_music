@@ -22,12 +22,13 @@ li a{
 }
 
 .textos{
-    padding-left: 740px;
+    padding-left: 760px;
     display:flex;
     text-align: right;
     text-decoration: none;
     list-style: none;
     text-decoration: none;
+    padding-top: 20px;
     margin: auto 0;
 }
 ul{
@@ -83,7 +84,8 @@ h4 {
      color: black;
     text-decoration: turquoise;
     font-size: 22px;
-    padding-left: 60px;
+    padding-left: 30px;
+    
 }
 .genero { 
     padding: 20px;
