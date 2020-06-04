@@ -246,13 +246,42 @@ background-color: rgba(29, 24, 24, 0.486);
     margin-top: 30px;
 }
 
-
-
-
-@media(max-width:556px)
-{ 
-
+.hola{
+    color: aqua;
+    font-family: fantasy;
 }
+
+
+
+@media(max-width:375px)
+{ 
+.container{
+    width: 335px;
+}
+.logo{
+    margin left:0;
+    width: 100px;
+    height: 100px;
+}
+.textos{
+    padding-left: 0;
+    font-size: 8px;
+}
+.slider{
+    margin-left: 35px;
+    width: 250px;
+    height: 148px;
+}
+.slider img{
+    height: 100%;
+}
+.box{
+    padding-left: 20px;
+}
+.container-1 input#search{
+    width: 300px;
+}
+
 
 
 
