@@ -1,13 +1,4 @@
-let nombre = prompt('¿como te llamas?');
 
-let retorno = saludar(nombre);
-
-let huno = document.querySelector('.hola')
-
-console.log(huno);
-
-
-huno.innerHTML = retorno;
 
 
 

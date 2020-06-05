@@ -135,12 +135,12 @@ transition: background .55s ease;
     margin-left: 10px;
     z-index: 1;
   }
-  .container-1 input#search:hover,      e.container-1 input#search:focus, .container-1 input#search:active{
+  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
     outline:none;
     background: black;
   }
 .footer2{
-    width: 1340px;
+    width: 1366px;
     height:120px ;
     display: flex;
     background-color: black;
@@ -258,6 +258,7 @@ background-color: rgba(29, 24, 24, 0.486);
     width: 190px;
     height: 190px;
     padding-left: 20px;
+    margin-top: 20px;
     
 }
 .nuevoslanzamientos1{
