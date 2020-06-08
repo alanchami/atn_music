@@ -1,13 +1,8 @@
+<<<<<<< HEAD
 let nombre = promt('¿como te llamas?');
+=======
+>>>>>>> 0fe3123b5dc6b5264766d1ce5ce8c624c85a2f6d
 
-let retorno = saludar(nombre);
-
-let huno = document.querySelector('.hola')
-
-console.log(huno);
-
-
-huno.innerHTML = retorno;
 
 
 

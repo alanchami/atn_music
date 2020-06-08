@@ -4,7 +4,7 @@ function saludar(nombre) {
     let saludoGeneral;
    
     if (nombre != '') {
-        saludoGeneral = 'Bienvenido'  +  nombre;  
+        saludoGeneral = 'Bienvenido' + nombre;  
     } else {
         saludoGeneral = 'Bienvenido invitado' ;
     }

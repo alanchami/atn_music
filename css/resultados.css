@@ -13,7 +13,11 @@ body{
     width: 150px;
     height: 110px;
 }
-
+.resultadosca{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 100px;
+}
 .container{
     width: 1346px;
     height:120px ;
@@ -135,12 +139,12 @@ transition: background .55s ease;
     margin-left: 10px;
     z-index: 1;
   }
-  .container-1 input#search:hover,      e.container-1 input#search:focus, .container-1 input#search:active{
+  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
     outline:none;
     background: black;
   }
 .footer2{
-    width: 1340px;
+    width: 1366px;
     height:120px ;
     display: flex;
     background-color: black;
@@ -239,11 +243,6 @@ background-color: rgba(29, 24, 24, 0.486);
     gap: 20px;
     margin-top: 30px;
 }
-.resultadosca{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 .nuevoslanzamientos3 img:hover{
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
@@ -263,6 +262,7 @@ background-color: rgba(29, 24, 24, 0.486);
     width: 190px;
     height: 190px;
     padding-left: 20px;
+    margin-top: 20px;
     
 }
 .nuevoslanzamientos1{
@@ -297,10 +297,10 @@ background-color: rgba(29, 24, 24, 0.486);
 
 
 
-@media(max-width:450px)
+@media(max-width:375px)
 { 
 .container{
-    width: 435px;
+    width: 335px;
 }
 .logo{
     margin left:0px;
@@ -312,7 +312,7 @@ background-color: rgba(29, 24, 24, 0.486);
     font-size: 8px;
 }
 .slider{
-    margin-left: 75px;
+    margin-left: 35px;
     width: 250px;
     height: 148px;
 }
@@ -320,29 +320,12 @@ background-color: rgba(29, 24, 24, 0.486);
     height: 100%;
 }
 .box{
-    padding-left: 60px;
+    padding-left: 20px;
 }
 .container-1 input#search{
     width: 300px;
 }
-.newlanza{
-    width: 410px;
-}
-.nuevoslanzamientos{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.footer2{
-    width: 400px;
-}
-.alumnos{
-    padding-left: 139px;
-    font-size: small;
-}
-.deezer{
-    width: 150px;
-    height: 120px;
-}
+
 
 
 
