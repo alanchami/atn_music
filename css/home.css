@@ -239,10 +239,7 @@ background-color: rgba(29, 24, 24, 0.486);
     gap: 20px;
     margin-top: 30px;
 }
-.resultadosca{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 
 .nuevoslanzamientos3 img:hover{
     -webkit-transition: margin 0.5s ease-out;
