@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    background-image: url(../img2/fondo\ 2.jpg);
+    background-color: rgb(20, 19, 19);;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -284,8 +284,8 @@ background-color: rgba(29, 24, 24, 0.486);
 .nuevoslanzamientos3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: ;
-    margin-left: 5px;
+    width: 
+    margin-left:  5px;
     gap: 10px;
     margin-top: 30px;
 }
@@ -303,7 +303,7 @@ background-color: rgba(29, 24, 24, 0.486);
     width: 335px;
 }
 .logo{
-    margin left:0px;
+    margin left: 0px;
     width: 100px;
     height: 100px;
 }
