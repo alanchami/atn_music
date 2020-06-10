@@ -6,15 +6,17 @@ console.log (data)
 
 let artistas = data.artists.data 
 let contenedorArtistas = document.querySelector ('.nuevoslanzamientos1')
- 
+
 for (const artista of artistas) {
     contenedorArtistas.innerHTML += `
     <div class="nuevoslanzamientos1">
     <a href="Yatra.html?id=${artista.id}"><img class="inolvidable" src="${artista.picture_xl}"
- alt=""></a> <h4> ${artista.name} </h4>
+ alt=""></a> 
+ <h4> ${artista.name} </h4> 
     </div>`
-
+    
 }
+
 let lanzamientos = data.tracks.data
 let contenedorTracks = document.querySelector ('.nuevoslanzamientos2')
 
