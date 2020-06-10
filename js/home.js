@@ -21,7 +21,7 @@ let contenedorTracks = document.querySelector ('.nuevoslanzamientos2')
 for (const track of lanzamientos ) {
     contenedorTracks.innerHTML += `
     <div class="nuevoslanzamientos2">
-    <a href="playa.html?id=${track.id}"><img class="inolvidable" src="${track.album.cover_xl}"
+    <a href="detalles-track.html?id=${track.id}"><img class="inolvidable" src="${track.album.cover_xl}"
  alt=""></a>  
  <h4> ${track.title} </h4>
     </div>`
