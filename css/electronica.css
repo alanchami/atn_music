@@ -35,7 +35,7 @@ body{
 
 li a{
     text-decoration: none;
-    color: aqua;    
+    color: white;    
     
   
 }
@@ -46,7 +46,7 @@ ul{
 .container h3{
    
     background-color: black;
-    color: aqua;
+    color: white;
     padding: 9px;
 }
 
@@ -59,7 +59,7 @@ ul{
     background-image: url(../img2/fondoazul.jpg);
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
+    color: white;
     margin-top: 40px;
     margin-bottom: 20px;
     padding: 10px;

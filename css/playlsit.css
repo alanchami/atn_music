@@ -34,7 +34,7 @@ body{
 
 li a{
     text-decoration: none;
-    color: aqua;
+    color: white;
     
   
 }
@@ -45,7 +45,7 @@ ul{
 .container h3{
    
     background-color: black;
-    color: aqua;
+    color: white;
     padding: 9px;
 }
 .box{
@@ -133,12 +133,12 @@ ul{
     .arriba{
         border: solid black 4px;
         background-color: black;
-        color: aqua;
+        color: white;
     }
     .abajo{
         margin-top: 50px;
         border: solid black 4px;
         background-color: black;
-        color: aqua;
+        color: white;
     }
     

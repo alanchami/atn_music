@@ -21,7 +21,7 @@ body {
 
 li a{
     text-decoration: none;
-    color: aqua;
+    color: white;
 }
 
 .textos{
@@ -41,7 +41,7 @@ ul{
 .container h3{
    
     background-color: black;
-    color: aqua;
+    color: white;
     padding: 9px;
 }
 .footer2{
@@ -59,7 +59,7 @@ ul{
     display: flex;
     text-decoration: none;
     list-style-type: none;
-    color: aqua;
+    color: white;
     font-size: x-large;
     padding-left: 780px;
     margin: auto 0;

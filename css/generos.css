@@ -18,7 +18,7 @@ body {
 
 li a{
     text-decoration: none;
-    color: aqua;
+    color: white;
 }
 
 .textos{
@@ -38,7 +38,7 @@ ul{
 .container h3{
    
     background-color: black;
-    color: aqua;
+    color: white;
     padding: 9px;
 }
 h1 {
@@ -82,7 +82,7 @@ h1 {
 }
 h4 {
      color: black;
-    text-decoration: turquoise;
+    text-decoration: rgb(223, 219, 219);
     font-size: 22px;
     padding-left: 30px;
     
