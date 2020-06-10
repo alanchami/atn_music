@@ -20,14 +20,12 @@ console.log(track);
 
 contenedorData.innerHTML =`
 
-<img class="playaimg" src="${track.album.cover_xl}" alt="">
-
-<h4>Cancion: ${track.title}</h4>
-<h4>Artista:${track.artist.name} </h4>
-<h4>Album: ${track.album.title}</h4>
-<a href="playlist.html"><h4>Agregar a tu Playlist</h4></a>
+<img class="playaimg" align= "left" src="${track.album.cover_xl}" alt="">
+<h1>${track.title}</h1>
+<h4>${track.artist.name} </h3>
+<h4> Album: ${track.album.title}</h3>
+<h4>${track.duration}Seg</h4>
 </div>
-<div class="musica">
     <audio  align="center" src="${track.preview}" controls="controls" type="audio/mpeg" preload="preload">
     </audio>
 </div>

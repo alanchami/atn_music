@@ -2,7 +2,7 @@
     margin: 0;
 }
 body {
-    background-image: url(../img/fondoartistas.jpg);
+    background-color: rgb(20, 19, 19);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -79,21 +79,35 @@ ul{
 .playa img{
     display: block;
     margin: auto;
-    width: 400px    ;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 38px 38px 38px 38px;
+    -moz-border-radius: 38px 38px 38px 38px;
+    -webkit-border-radius: 38px 38px 38px 38px;
+    border: 0px solid #000000;
+    
     
 }
-h4{
-    font-size: 30px;
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
     margin-top: 20px;
-    text-align: center;
+    text-align:left;
+    padding-left: 330px;
+    color: white;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align:left;
+    padding-left: 330px;
     color: white;
 }
 audio{
-    margin-top: 20px;
+    margin-top: 50px;
     color: black;
     width: 800px;
     padding-left: 300px;
 }
-.playaimg{
-    position: relative;
-}
+
