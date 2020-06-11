@@ -10,6 +10,9 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+  
+  
 .logo{
     width: 150px;
     height: 110px;
@@ -52,8 +55,8 @@ ul{
 }
 
 .slider {
-width: 50%;
-height  : 377px;
+width: 80%;
+height  : 600px;
 margin: auto;
 overflow: hidden;
 border: solid black 4px;
