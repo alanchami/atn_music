@@ -10,10 +10,12 @@ let contenedorArtistas = document.querySelector ('.nuevoslanzamientos1')
 for (const artista of artistas) {
     contenedorArtistas.innerHTML += `
     <div class="nuevoslanzamientos1">
-    <a href="Yatra.html?id=${artista.id}"><img class="inolvidable" src="${artista.picture_xl}"
- alt=""></a> 
- <h4> ${artista.name} </h4> 
-    </div>`
+    <div><a href="Yatra.html?id=${artista.id}"><img class="inolvidable" src="${artista.picture_xl}"
+ alt=""></a> <div>
+ <h5 align="center">${artista.type}</h5>
+ <h4 align="center"> ${artista.name} </h4> </div>
+    </div>
+    `
     
 }
 
@@ -23,9 +25,10 @@ let contenedorTracks = document.querySelector ('.nuevoslanzamientos2')
 for (const track of lanzamientos ) {
     contenedorTracks.innerHTML += `
     <div class="nuevoslanzamientos2">
-    <a href="detalles-track.html?id=${track.id}"><img class="inolvidable" src="${track.album.cover_xl}"
+    <div><a href="detalles-track.html?id=${track.id}"><img class="inolvidable" src="${track.album.cover_xl}"
  alt=""></a>  
- <h4> ${track.title} </h4>
+ <h5 align="center">${track.type}</h5>
+ <h4 align= "center"> ${track.title} </h4></div>
     </div>`
 }
 
@@ -35,9 +38,10 @@ let contenedorAlbums = document.querySelector ('.nuevoslanzamientos3')
 for (const album of albums) {
     contenedorAlbums.innerHTML += `
     <div class="nuevoslanzamientos3">
-    <a href="regge.html?id=${album.id}"><img class="inolvidable" src="${album.cover_xl}" alt="">
+    <div><a href="regge.html?id=${album.id}"><img class="inolvidable" src="${album.cover_xl}" alt="">
     </a>
-    <h4> ${album.title} </h4>
+    <h5 align="center">${album.type}</h5>
+    <h4> ${album.title} </h4></div>
     `
 }
 
