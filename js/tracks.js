@@ -35,9 +35,9 @@ contenedorData.innerHTML =`
     console.error(error)
 })
 
-let artistId = track.artist.id
+let artistainfo = track.artist.id
 
-fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistId+"/albums")
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistainfo+"/albums")
 .then(function(response){
     return response.json()
 })
@@ -61,7 +61,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artis
     }).catch(function(error){
         console.error(error)
     })
-})
+
 
 
 
