@@ -105,8 +105,13 @@ h4{
     color: white;
 }
 audio{
+<<<<<<< HEAD
     margin-top: 50px;
     color: black;
+=======
+    margin-top: 20px;
+    color: white;
+>>>>>>> 1e78629e466dd88768c0fb7d65380c33ad95dc4a
     width: 800px;
     padding-left: 300px;
 }

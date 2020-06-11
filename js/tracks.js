@@ -35,5 +35,33 @@ contenedorData.innerHTML =`
     console.error(error)
 })
 
+let artistId = track.artist.id
+
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistId+"/albums")
+.then(function(response){
+    return response.json()
+})
+.then (function(data){
+    let Albumes = data.data
+    let contenedorAlbumes= document.querySelector(".fila3");
+    console.log(Albumes);
+    
+    for (const albums of Albumes) {
+         contenedorAlbumes.innerHTML += `
+    
+        
+            <div class="contenedor-imagen">
+                <a href="detalles-album.html?id=${albums.id}"><img src="${albums.cover_big}" alt="Imagen de album"></a>
+                <h3 class="texto-album">${albums.title}</h3>
+            </div>
+            
+    `
+    }
+   
+    }).catch(function(error){
+        console.error(error)
+    })
+})
+
 
 

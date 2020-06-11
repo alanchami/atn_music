@@ -23,7 +23,7 @@ body {
 
 li a{
     text-decoration: none;
-    color: aqua;
+    color: white;
 }
 
 .textos{
@@ -43,7 +43,7 @@ ul{
 .container h3{
    
     background-color: black;
-    color: aqua;
+    color: white;
     padding: 9px;
 }
 h1 { 
