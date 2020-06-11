@@ -38,7 +38,7 @@ let contenedorAlbums = document.querySelector ('.nuevoslanzamientos3')
 for (const album of albums) {
     contenedorAlbums.innerHTML += `
     <div class="nuevoslanzamientos3">
-    <div><a href="regge.html?id=${album.id}"><img class="inolvidable" src="${album.cover_xl}" alt="">
+    <div><a href="detallealbumes.html?id=${album.id}"><img class="inolvidable" src="${album.cover_xl}" alt="">
     </a>
     <h5 align="center">${album.type}</h5>
     <h4> ${album.title} </h4></div>
