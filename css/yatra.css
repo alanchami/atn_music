@@ -81,6 +81,9 @@ margin-top: 20px;
     justify-content: center; 
     
 }
+p{
+    margin: auto;
+}
 .electronica {
     margin-left: 25px;
     display: flex;
@@ -149,8 +152,14 @@ h4 {
 }
 .albunes h3{
     vertical-align: text-bottom;
-    padding-left: 160px;
     color:white;
+}
+h5{
+    color: grey;
+margin-left: 0;
+margin-top: 10px;
+display: flex;
+align-self: flex-start;
 }
 svg{
 margin: 0 auto;
@@ -167,3 +176,4 @@ margin: 0 auto;
 width: 290px;
 height: 90px;
 }
+

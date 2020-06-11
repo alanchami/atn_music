@@ -13,7 +13,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + inf
 .then(function(data){ 
 
 console.log (data);
-let contenedorData = document.querySelector(".artistaar")
+let contenedorData = document.querySelector(".monst")
 let artista = data
 
 contenedorData.innerHTML +=
@@ -67,7 +67,9 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+info+
     
          <div class="fantasia">
          <img src="${album.cover_xl}" alt="">
+         <h5>${album.type}</h5>
          <h3>${album.title}</h3>
+         <h5>${album.release_date}</h5>
          </div>
             
             
