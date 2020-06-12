@@ -18,6 +18,7 @@ let track = data
 console.log(track);
 
 
+
 contenedorData.innerHTML =`
 
 <img class="playaimg" align= "left" src="${track.album.cover_xl}" alt="">
@@ -25,9 +26,12 @@ contenedorData.innerHTML =`
 <h4>${track.artist.name} </h3>
 <h4> Album: ${track.album.title}</h3>
 <h4>${track.duration}Seg</h4>
+<br>
+<br>
+<div> 
+  <button class="btn btn-primary" id="agregar"> + Agregar a tu Playlist </button>
 </div>
 
-</div>
 `
 let ContenedorFooter = document.querySelector (".futer")  
 
