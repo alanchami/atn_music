@@ -1,13 +1,3 @@
-body,html{margin:0;padding:0;height:100%;}
-body{
- 
-
-  justify-content:center;
-  align-items:center;
-}
-svg{font-weight:bold;max-width:600px;height:auto;}
-
-
 body {
     background-color: rgb(20, 19, 19);;
     background-repeat: no-repeat;
@@ -46,6 +36,31 @@ body {
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
     -o-transition: width 2s, height 2s,-o-transform 2s;
 }
+.h--1:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+.h--2:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+.h--3:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+
 
 
 li a{
@@ -134,5 +149,3 @@ h4 {
     font-size: 30px;
     text-decoration: underline;
 }
-
-

@@ -356,7 +356,7 @@ color: white;
 
 .text-copy {
     fill: none;
-    stroke: white;
+    stroke: black;
     stroke-dasharray: 6% 29%;
     stroke-width: 5px;
     stroke-dashoffset: 0%;
@@ -365,7 +365,7 @@ color: white;
 
 
 .text-copy:nth-child(2){
-	stroke: white;
+	stroke:aqua ;
 	animation-delay: -2s;
 }
 
@@ -375,12 +375,12 @@ color: white;
 }
 
 .text-copy:nth-child(4){
-	stroke: black;
+	stroke: aqua;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-	stroke: grey;
+	stroke: yellow;
 	animation-delay: -5s;
 }
 
@@ -445,16 +445,19 @@ align-self: flex-start;
     font-size: 8px;
 }
 .slider{
+    border: solid black 2px;
+    padding:0;
+    margin: auto;
     margin-top: 0;
-    margin-left: 75px;
-    width: 250px;
-    height: 148px;
+    width: 80%;
+   
 }
 .slider img{
     height: 100%;
 }
 .box{
-    padding-left: 60px;
+    align-items: center;
+   
 }
 .container-1 input#search{
     width: 300px;
@@ -479,12 +482,12 @@ align-self: flex-start;
     height: 120px;
 }
 .svga {
-    display: block¿;
+    display: block;
     font: 10.5em 'Montserrat';
-    width: 300px;
+    width: 100%;
     height: 100px;
     justify-content: center;
-     margin-left: 40px;
+     
    
 }
 

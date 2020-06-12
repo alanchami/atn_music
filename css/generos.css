@@ -25,6 +25,11 @@ body {
     height:120px ;
     display: flex; 
     background-color: black;
+<<<<<<< HEAD
+=======
+   
+    
+>>>>>>> 487df40a7669cda09e8e057e88bf0744a7b5ce0b
 }
 
 .h--1{
@@ -82,9 +87,10 @@ h1 {
 
 }
 .grid-container{
+
     padding-left: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: center; 
   background-color: rgba(37, 36, 36, 0.5);
     
@@ -118,7 +124,12 @@ margin-top: 10px;
 display: flex;
 align-self: flex-start;
     font-size: 17px;
+<<<<<<< HEAD
  
+=======
+    margin-left: 45%;
+    align-self: flex-start;
+>>>>>>> 487df40a7669cda09e8e057e88bf0744a7b5ce0b
 
 }
 
