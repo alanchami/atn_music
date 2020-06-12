@@ -120,6 +120,14 @@ ul{
     margin: auto;
 
 }
+
+#agregar { 
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    margin-left: 20px;
+
+}
 .deezer{
     margin: auto;
     width: 125px;
@@ -137,7 +145,7 @@ ul{
 .playa img{
     display: block;
     margin: auto;
-    width: 300px;
+    width: 280px;
     padding-left: 10px;
     border-radius: 38px 38px 38px 38px;
     -moz-border-radius: 38px 38px 38px 38px;
@@ -147,16 +155,19 @@ ul{
     
 }
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 32px;
+    text
     margin-top: 20px;
     text-align:left;
     padding-left: 330px;
     color: white;
 }
 h4 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
     margin-top: 10px;
     text-align:left;
     padding-left: 330px;
