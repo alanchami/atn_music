@@ -53,16 +53,16 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+info+
         console.error(error)
     })
 
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+info+"/albums")
+    fetch("https://developers.deezer.com/api/explorer?url=artist/27")
     .then(function(response){
         return response.json()
     })
     .then (function(data){
-    let Albumes = data.data
+    let info = data.data
     let contenedorAlbumes= document.querySelector(".albunes");
-    console.log(Albumes);
+    console.log(infos);
     
-    for (const album of Albumes) {
+    for (const album of info) {
          contenedorAlbumes.innerHTML += `
     
          <div class="fantasia">

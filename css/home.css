@@ -1,3 +1,9 @@
+/*--------Mobile First-----------*/
+
+
+
+
+/*-----Body-----*/
 *{
     margin-top: 0;
     margin-bottom: 0;
@@ -10,7 +16,10 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+.menu{
+    display: flex;
+    justify-content:space-between ;
+}
   
   
 .logo{
@@ -19,11 +28,8 @@ body{
 }
 
 .container{
-    width: 1346px;
-    height:120px ;
-    display: flex;
+    max-width: 1346px;
     background-color: black;
-    position: fixed;
 }
 .h--1{
     transition: width 2s, height 2s, transform 2s;
@@ -53,7 +59,7 @@ body{
 
 
 .textos{
-    padding-left: 800px;
+    
     display:flex;
     text-align: right;
     text-decoration: none;
@@ -342,7 +348,10 @@ color: white;
     font: 10.5em 'Montserrat';
     width: 960px;
     height: 300px;
-    margin: 0 auto;
+    padding-top: 60px;
+    justify-content: center;
+    margin: auto;
+   
 }
 
 .text-copy {
@@ -419,13 +428,15 @@ align-self: flex-start;
 
 
 
-@media(max-width:450px)
-{ 
+@media (max-width:480px)
+
+{
+
 .container{
-    width: 435px;
+    width: 100%;
 }
 .logo{
-    margin left: 0 px;
+    margin-left: 0 px;
     width: 100px;
     height: 100px;
 }
@@ -434,6 +445,7 @@ align-self: flex-start;
     font-size: 8px;
 }
 .slider{
+    margin-top: 0;
     margin-left: 75px;
     width: 250px;
     height: 148px;
@@ -466,6 +478,16 @@ align-self: flex-start;
     width: 150px;
     height: 120px;
 }
+.svga {
+    display: block¿;
+    font: 10.5em 'Montserrat';
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+     margin-left: 40px;
+   
+}
+
 
 
 
