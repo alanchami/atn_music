@@ -96,18 +96,22 @@ ul{
     margin-top: 285px;
 }
 .footer2{
-    margin-left: 0;
-    position: relative;
     background-color: white;
     width: 100%;
     display: flex;
+    margin-top: 50px;
+    padding-bottom: 0%;
+
+    
+    
 }
 .alumnos {
     display: flex;
     text-decoration: none;
     list-style-type: none;
     color: white;
-   background-color: white;
+
+    padding-left: 10px;
     margin: auto 0;
 }
 .alumnos li{

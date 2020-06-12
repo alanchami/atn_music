@@ -33,7 +33,7 @@ let ContenedorFooter = document.querySelector (".futer")
 
 ContenedorFooter.innerHTML = `
 <footer>
-        <div class="footer2">
+        <div class="footer2s">
         <img class="deezer" src="img2/Como llora foto.png" alt="">
          <div class="alumnos">
           <audio class="audio" src="${track.preview}" controls="controls" type="audio/mpeg" preload="preload">
