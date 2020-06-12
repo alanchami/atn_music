@@ -69,9 +69,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+info+
          <img src="${album.cover_xl}" alt="">
          <h5>${album.type} ${album.release_date}</h5>
          <h3>${album.title}</h3>
-         </div>
-            
-            
+         </div>    
     `
     }
    

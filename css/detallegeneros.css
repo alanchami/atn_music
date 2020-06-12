@@ -40,7 +40,7 @@ body {
     /* tranformamos el elemento al pasar el mouse por encima al doble de
        su tamaño con scale(2). */
     transform : scale(0.7);
-    -moz-transform : scale(0.7);      /* Firefox */
+    -moz-transform : scale(0.7);   s   /* Firefox */
     -webkit-transform : scale(0.7);   /* Chrome - Safari */
     -o-transform : scale(0.7);        /* Opera */
 }
