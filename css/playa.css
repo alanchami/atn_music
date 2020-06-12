@@ -5,6 +5,7 @@ body {
     background-color: rgb(20, 19, 19);;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .logo{
     width: 150px;
@@ -49,9 +50,9 @@ ul{
     width: 1364px;
     height:120px ;
     display: flex;
-    background-color: black;
     margin-top: 50px;
     padding-bottom: 0%;
+    background-color: white;
     
     
 }
@@ -60,17 +61,22 @@ ul{
     text-decoration: none;
     list-style-type: none;
     color: white;
-    font-size: x-large;
-    padding-left: 780px;
+   background-color: white;
+    padding-left: 10px;
     margin: auto 0;
 }
 .alumnos li{
     list-style-type: none;
-    padding: 15px;
+    padding: 10px;
+    font-size: 15 px;
+    padding-top: 50px;
 }
+.audio { 
+    border: solid 30px black;
 
+}
 .deezer{
-    width: 250px;
+    width: 225px;
     position: absolute;
 }
 .playa{
@@ -90,13 +96,13 @@ ul{
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 20px;
     margin-top: 20px;
     text-align:left;
     padding-left: 330px;
     color: white;
 }
-h4{
+h4 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     margin-top: 10px;

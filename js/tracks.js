@@ -26,10 +26,23 @@ contenedorData.innerHTML =`
 <h4> Album: ${track.album.title}</h3>
 <h4>${track.duration}Seg</h4>
 </div>
-    <audio  align="center" src="${track.preview}" controls="controls" type="audio/mpeg" preload="preload">
-    </audio>
-</div>
 
+</div>
+`
+let ContenedorFooter = document.querySelector (".futer")  
+
+ContenedorFooter.innerHTML = `
+<footer>
+        <div class="footer2">
+         <div class="alumnos">
+          <audio class="audio" src="${track.preview}" controls="controls" type="audio/mpeg" preload="preload">
+          </audio>
+           
+
+          </div>
+        </div>
+      </div>
+     </footer> 
 `
 }).catch(function(error){
     console.error(error)
