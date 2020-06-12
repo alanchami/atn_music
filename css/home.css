@@ -23,6 +23,7 @@ body{
     height:120px ;
     display: flex;
     background-color: black;
+    position: fixed;
 }
 .h--1{
     transition: width 2s, height 2s, transform 2s;
