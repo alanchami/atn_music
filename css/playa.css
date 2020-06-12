@@ -52,7 +52,7 @@ ul{
     display: flex;
     margin-top: 50px;
     padding-bottom: 0%;
-    background-color: white;
+
     
     
 }
@@ -61,7 +61,7 @@ ul{
     text-decoration: none;
     list-style-type: none;
     color: white;
-   background-color: white;
+
     padding-left: 10px;
     margin: auto 0;
 }
