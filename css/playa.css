@@ -46,15 +46,11 @@ ul{
     padding: 9px;
 }
 .footer2{
-    
     width: 1364px;
     height:120px ;
     display: flex;
     margin-top: 50px;
     padding-bottom: 0%;
-
-    
-    
 }
 .alumnos {
     display: flex;
@@ -72,7 +68,7 @@ ul{
     padding-top: 50px;
 }
 .audio { 
-    border: solid 30px black;
+ 
 
 }
 
@@ -128,3 +124,28 @@ audio{
     padding-left: 300px;
 }
 
+.star-rating {
+    font-size: 40px;
+    color:  white;
+    margin-left: 90px;
+    display: inline-block;
+}
+    a {
+      float: right;
+      width: size;
+      height: size;
+      line-height: size;
+      font-size: size;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      transition: color .3s;
+    }     
+      :hover {
+        color: white;
+        
+      }   
+         a {
+          color: white;
+      }
+    

@@ -32,7 +32,21 @@ contenedorData.innerHTML =`
   <button class="btn btn-primary" id="agregar"> + Agregar a tu Playlist </button>
 </div>
 
+<div class="star-rating">
+    <a href="#" class = "estrella"> ★ </a>
+    <a href="#" class = "estrella"> ★ </a>
+    <a href="#" class = "estrella"> ★ </a>
+    <a href="#" class = "estrella"> ★ </a>
+    <a href="#" class = "estrella"> ★ </a>
+</div>
+
 `
+let votacion = document.querySelector ('.estrella') ; 
+
+votacion.onclick = function () { 
+    votacion.style.color = 'orange'
+}
+
 let ContenedorFooter = document.querySelector (".futer")  
 
 ContenedorFooter.innerHTML = `
@@ -71,8 +85,9 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artis
                 <a href="detalles-album.html?id=${albums.id}"><img src="${albums.cover_big}" alt="Imagen de album"></a>
                 <h3 class="texto-album">${albums.title}</h3>
             </div>
-            
     `
+    
+
     }
    
     }).catch(function(error){
