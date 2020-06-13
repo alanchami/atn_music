@@ -7,6 +7,7 @@ body{
     background-color: rgb(20, 19, 19);;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .logo{
@@ -20,6 +21,9 @@ body{
     background-color: black;
     position: fixed;
 }
+
+
+
 .textos{
     
     padding-left: 740px;
@@ -83,7 +87,7 @@ ul{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center; 
-        background-color: rgba(79, 155, 155, 0.356);
+        background-color: rgba(38, 41, 41, 0.356);
         
         
     }
@@ -126,8 +130,8 @@ ul{
         padding-left: 30px;
     }
     .generos{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 30px;
+        
+        font-size: 400px;
         text-decoration: underline;
     }
     .arriba{

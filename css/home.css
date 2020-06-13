@@ -1,3 +1,9 @@
+/*--------Mobile First-----------*/
+
+
+
+
+/*-----Body-----*/
 *{
     margin-top: 0;
     margin-bottom: 0;
@@ -10,7 +16,10 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+.menu{
+    display: flex;
+    justify-content:space-between ;
+}
   
   
 .logo{
@@ -19,9 +28,7 @@ body{
 }
 
 .container{
-    width: 1346px;
-    height:120px ;
-    display: flex;
+    max-width: 1346px;
     background-color: black;
 }
 .h--1{
@@ -52,7 +59,7 @@ body{
 
 
 .textos{
-    padding-left: 800px;
+    
     display:flex;
     text-align: right;
     text-decoration: none;
@@ -339,9 +346,11 @@ color: white;
 .svga {
     display: block;
     font: 10.5em 'Montserrat';
-    width: 560px;
+    width: 500px;
     height: 300px;
-    margin: 0 auto;
+    justify-content: center;
+    margin: auto;
+   
 }
 
 .text-copy {
@@ -355,7 +364,7 @@ color: white;
 
 
 .text-copy:nth-child(2){
-	stroke: aqua;
+	stroke:aqua ;
 	animation-delay: -2s;
 }
 
@@ -365,12 +374,12 @@ color: white;
 }
 
 .text-copy:nth-child(4){
-	stroke: black;
+	stroke: aqua;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-	stroke: black;
+    stroke: black;
 	animation-delay: -5s;
 }
 
@@ -418,13 +427,15 @@ align-self: flex-start;
 
 
 
-@media(max-width:450px)
-{ 
+@media (max-width:480px)
+
+{
+
 .container{
-    width: 435px;
+    width: 100%;
 }
 .logo{
-    margin left: 0 px;
+    margin-left: 0 px;
     width: 100px;
     height: 100px;
 }
@@ -433,15 +444,19 @@ align-self: flex-start;
     font-size: 8px;
 }
 .slider{
-    margin-left: 75px;
-    width: 250px;
-    height: 148px;
+    border: solid black 2px;
+    padding:0;
+    margin: auto;
+    margin-top: 0;
+    width: 80%;
+   
 }
 .slider img{
     height: 100%;
 }
 .box{
-    padding-left: 60px;
+    align-items: center;
+   
 }
 .container-1 input#search{
     width: 300px;
@@ -465,6 +480,16 @@ align-self: flex-start;
     width: 150px;
     height: 120px;
 }
+.svga {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+     
+   
+}
+
 
 
 

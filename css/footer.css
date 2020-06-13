@@ -5,14 +5,14 @@
     background-color: black;
     margin-top: 50px;
     padding-bottom: 0%;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 .alumnos {
     display: flex;
     text-decoration: none;
     list-style-type: none;
-    color: aqua;
+    color: white;
     font-size: x-large;
     padding-left: 780px;
     margin: auto 0;

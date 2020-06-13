@@ -55,6 +55,13 @@ ul{
     
     
 }
+#agregar { 
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    margin-left: 20px;
+
+}
 .alumnos {
     display: flex;
     text-decoration: none;
@@ -96,6 +103,8 @@ h1{
     padding-left: 330px;
     color: white;
 }
+
+
 h4{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
