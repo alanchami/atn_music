@@ -339,14 +339,14 @@ color: white;
 .svga {
     display: block;
     font: 10.5em 'Montserrat';
-    width: 960px;
+    width: 560px;
     height: 300px;
     margin: 0 auto;
 }
 
 .text-copy {
     fill: none;
-    stroke: white;
+    stroke: black;
     stroke-dasharray: 6% 29%;
     stroke-width: 5px;
     stroke-dashoffset: 0%;
@@ -355,12 +355,12 @@ color: white;
 
 
 .text-copy:nth-child(2){
-	stroke: white;
+	stroke: aqua;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: black;
+	stroke: aqua;
 	animation-delay: -3s;
 }
 
@@ -370,7 +370,7 @@ color: white;
 }
 
 .text-copy:nth-child(5){
-	stroke: grey;
+	stroke: black;
 	animation-delay: -5s;
 }
 
