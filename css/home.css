@@ -356,7 +356,7 @@ color: white;
 
 .text-copy {
     fill: none;
-    stroke: black;
+    stroke: white;
     stroke-dasharray: 6% 29%;
     stroke-width: 5px;
     stroke-dashoffset: 0%;
@@ -365,22 +365,22 @@ color: white;
 
 
 .text-copy:nth-child(2){
-	stroke:black ;
+	stroke:white ;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: black;
+	stroke: white;
 	animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-	stroke: aqua;
+	stroke: white;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-    stroke: black;
+    stroke: white;
 	animation-delay: -5s;
 }
 
