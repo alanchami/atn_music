@@ -18,7 +18,6 @@ let track = data
 console.log(track);
 
 
-
 contenedorData.innerHTML =`
 
 <img class="playaimg" align= "left" src="${track.album.cover_xl}" alt="">
@@ -31,7 +30,9 @@ contenedorData.innerHTML =`
 <div> 
   <button class="btn btn-primary" id="agregar"> + Agregar a tu Playlist </button>
 </div>
+</div>
 
+<<<<<<< HEAD
 <div class="star-rating">
     <a href="#" class = "estrella"> ★ </a>
     <a href="#" class = "estrella"> ★ </a>
@@ -40,6 +41,9 @@ contenedorData.innerHTML =`
     <a href="#" class = "estrella"> ★ </a>
 </div>
 
+=======
+</div>
+>>>>>>> 4857c56639eaf3db95040a0bc6517791b0ad6b02
 `
 let votacion = document.querySelector ('.estrella') ; 
 
@@ -51,7 +55,8 @@ let ContenedorFooter = document.querySelector (".futer")
 
 ContenedorFooter.innerHTML = `
 <footer>
-        <div class="footer2">
+        <div class="footer2s">
+        <img class="deezer" src="img2/Como llora foto.png" alt="">
          <div class="alumnos">
           <audio class="audio" src="${track.preview}" controls="controls" type="audio/mpeg" preload="preload">
           </audio>

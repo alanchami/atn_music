@@ -24,8 +24,11 @@ body {
     height:120px ;
     display: flex; 
     background-color: black;
+<<<<<<< HEAD
+=======
    
     
+>>>>>>> 487df40a7669cda09e8e057e88bf0744a7b5ce0b
 }
 
 .h--1{
@@ -114,24 +117,45 @@ h1 {
     padding-left: 60px;
 }
 h4 {
-     color: white;
-    text-decoration: rgb(223, 219, 219);
+    color: white;
+margin-left: 0;
+margin-top: 10px;
+display: flex;
+align-self: flex-start;
     font-size: 17px;
+<<<<<<< HEAD
+ 
+=======
     margin-left: 45%;
     align-self: flex-start;
+>>>>>>> 487df40a7669cda09e8e057e88bf0744a7b5ce0b
 
 }
+
+h5{
+    color: grey;
+margin-left: 0;
+padding-top: 2px;
+margin:auto;
+display: flex;
+align-self: flex-start;
+}
+
 .genero { 
-    padding: 20px;
-    
+    padding: 20px; 
 }
 .imagen {
     width: 200px;
     height: 180px;
     gap: 30px;
+<<<<<<< HEAD
+    margin-left: 25px;
+    border: solid rgba(255, 255, 255, 0.301) 2px;
+=======
     border-radius:35px;
     border-color:  white;
     border-style: groove;
+>>>>>>> d2ec9a46e57631af2b5fe40ed1087bda16f57004
 }
 .generos{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
