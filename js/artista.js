@@ -41,9 +41,9 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+info+
             contenedorPlaylist.innerHTML +=`
             <div class="song">
         <p><audio  class="audio1" align="center" src="${cancion.preview}" controls="controls" type="audio/mpeg" preload="preload">
-          <p>${cancion.title_short}</p>
-          <p>${cancion.album.title}</p> 
-          <p>${cancion.rank}</p>
+          <p class="">${cancion.title_short}</p>
+          <p class= "">${cancion.album.title}</p> 
+          <p class= "">${cancion.rank}</p>
           
             `
         }
