@@ -25,20 +25,26 @@ contenedorData.innerHTML =`
 <h4>${track.artist.name} </h3>
 <h4> Album: ${track.album.title}</h3>
 <h4>${track.duration}Seg</h4>
+<div class="ec-stars-wrapper">
+	<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+	<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+	<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+	<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+	<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+</div>
 <br>
 <br>
 <div> 
   <button class="btn btn-primary" id="agregar"> + Agregar a tu Playlist </button>
 </div>
 </div>
-
 </div>
 `
 let ContenedorFooter = document.querySelector (".futer")  
 
 ContenedorFooter.innerHTML = `
 <footer>
-        <div class="footer2s">
+        <div class="footer2">
         <img class="deezer" src="img2/Como llora foto.png" alt="">
          <div class="alumnos">
           <audio class="audio" src="${track.preview}" controls="controls" type="audio/mpeg" preload="preload">
@@ -80,7 +86,4 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artis
     }).catch(function(error){
         console.error(error)
     })
-
-
-
-
+    

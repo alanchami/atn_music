@@ -1,4 +1,3 @@
-/*--------Mobile First-----------*/
 
 
 
@@ -28,7 +27,7 @@ body{
 }
 
 .container{
-    max-width: 1346px;
+    max-width: 100%;
     background-color: black;
 }
 .h--1{
@@ -274,6 +273,7 @@ h2{
     padding-right: 5px;
 }
 .newlanza{
+    width: 100%;
 overflow: hidden;
 border:  solid black 4px;
 margin-top: 40px;
@@ -344,10 +344,11 @@ color: white;
 
 
 .svga {
+    padding-top: 50px;
     display: block;
     font: 10.5em 'Montserrat';
     width: 500px;
-    height: 300px;
+    height: 200px;
     justify-content: center;
     margin: auto;
    
@@ -364,12 +365,12 @@ color: white;
 
 
 .text-copy:nth-child(2){
-	stroke:aqua ;
+	stroke:black ;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: aqua;
+	stroke: black;
 	animation-delay: -3s;
 }
 
@@ -443,18 +444,24 @@ align-self: flex-start;
     padding-left: 0;
     font-size: 8px;
 }
+
 .slider{
     border: solid black 2px;
     padding:0;
     margin: auto;
     margin-top: 0;
-    width: 80%;
+    height: 10%;
+    width: 90%;
    
 }
 .slider img{
+    width: 100%;
     height: 100%;
 }
 .box{
+    
+    width: 100%;
+    padding-left: 5px;
     align-items: center;
    
 }
@@ -462,14 +469,26 @@ align-self: flex-start;
     width: 300px;
 }
 .newlanza{
-    width: 410px;
+    width: 100%;
 }
-.nuevoslanzamientos{
+.nuevoslanzamientos1{
     display: grid;
     grid-template-columns: 1fr;
 }
+.nuevoslanzamientos2{
+    display: grid;
+    grid-template-columns:  1fr;
+}
+.nuevoslanzamientos3{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.inolvidable{
+    width: 80%;
+    height: 50%;
+}
 .footer2{
-    width: 400px;
+    width: 100%;
     margin: 0;
 }
 .alumnos{
@@ -481,6 +500,7 @@ align-self: flex-start;
     height: 120px;
 }
 .svga {
+    margin-top: 20px;
     display: block;
     font: 10.5em 'Montserrat';
     width: 100%;
