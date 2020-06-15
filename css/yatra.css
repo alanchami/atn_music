@@ -243,6 +243,13 @@ width: 290px;
 height: 90px;
 }
 
+
+
+
+
+
+
+
 @media (max-width:480px)
 
 {
@@ -311,7 +318,6 @@ h1{
 }
 .none{
     display: none;
-}
 }
 .audio1{
    width: 200px;

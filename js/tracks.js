@@ -22,8 +22,8 @@ contenedorData.innerHTML =`
 
 <img class="playaimg" align= "left" src="${track.album.cover_xl}" alt="">
 <h1>${track.title}</h1>
-<h4>${track.artist.name} </h3>
-<h4> Album: ${track.album.title}</h3>
+<h4><a href= "yatra.html">${track.artist.name}</a> </h4>
+<h4> Album: ${track.album.title}</h4>
 <h4>${track.duration}Seg</h4>
 <div class="ec-stars-wrapper">
 	<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
@@ -60,30 +60,46 @@ ContenedorFooter.innerHTML = `
     console.error(error)
 })
 
-let artistainfo = track.artist.id
 
-fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistainfo+"/albums")
-.then(function(response){
-    return response.json()
-})
-.then (function(data){
-    let Albumes = data.data
-    let contenedorAlbumes= document.querySelector(".fila3");
-    console.log(Albumes);
-    
-    for (const albums of Albumes) {
-         contenedorAlbumes.innerHTML += `
-    
-        
-            <div class="contenedor-imagen">
-                <a href="detalles-album.html?id=${albums.id}"><img src="${albums.cover_big}" alt="Imagen de album"></a>
-                <h3 class="texto-album">${albums.title}</h3>
-            </div>
-            
-    `
-    }
    
-    }).catch(function(error){
+
+
+    .catch(function(error){
         console.error(error)
     })
     
+
+
+    let albuminfo = album.tracks.id
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + albuminfo+ "/tracks")
+    .then(function(response){
+        return response.json()
+    })
+    .then (function(data){
+        let Albumes = data.data
+        let contenedorAlbumes= document.querySelector(".nuevoslanzamientos2");
+        console.log(Albumes);
+        
+        for (const albums of Albumes) {
+             contenedorAlbumes.innerHTML += `
+        
+            
+            
+               <div><a href="playa.html"><img class="inolvidable" src="img2/inolvidable.jpg" alt=""></a>
+           <h4 align=""> nombre lanzamiento </h4></div>
+               <div><a href="oye.html"><img class="inolvidable" src="img2/favoritocamilo.jpg" alt=""></a>
+                 <h4 align=""> nombre lanzamiento </h4></div>
+               <div><a href="dipi.html"><img class="inolvidable" src="img2/dipy.jpg" alt=""></a>
+             <h4 align=""> nombre lanzamiento </h4></div>
+             </div>
+           </div>            
+                
+        `
+        }
+       
+    
+    
+        }).catch(function(error){
+            console.error(error)
+        })
+        
