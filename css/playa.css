@@ -55,6 +55,7 @@ ul{
     margin-left: 20px;
 
 }
+
 .futer{
     background-color: white;
     margin-top: 100px;
@@ -138,8 +139,12 @@ h1{
     color: white;
 }
 
-
+a{
+    text-decoration: none;
+}
 h4{
+    
+    text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     margin-top: 10px;

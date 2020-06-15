@@ -22,8 +22,8 @@ contenedorData.innerHTML =`
 
 <img class="playaimg" align= "left" src="${track.album.cover_xl}" alt="">
 <h1>${track.title}</h1>
-<h4><a href= "yatra.html">${track.artist.name}</a> </h4>
-<h4> Album: ${track.album.title}</h4>
+<a href= "yatra.html?id=${track.artist.id}"><h4>${track.artist.name} </h4></a>
+<a href= "detallealbumes.html?id=${track.album.id}"><h4> Album: ${track.album.title}</h4></a>
 <h4>${track.duration}Seg</h4>
 <div class="ec-stars-wrapper">
 	<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
