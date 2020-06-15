@@ -5,6 +5,7 @@ body {
     background-color: rgb(20, 19, 19);;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .logo{
     width: 150px;
@@ -24,6 +25,27 @@ li a{
     color: white;
 }
 
+
+.h--1{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.h--2{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.h--3{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+
+
 .textos{
     padding-left: 740px;
     display:flex;
@@ -34,6 +56,34 @@ li a{
     padding-top: 20px;
     margin: auto 0;
 } 
+
+
+.h--1:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+.h--2:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+.h--3:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+ 
+
 ul{
     display: flex;
 }
@@ -157,3 +207,28 @@ audio{
     width: 800px;
 }
 
+.star-rating {
+    font-size: 40px;
+    color:  white;
+    margin-left: 90px;
+    display: inline-block;
+}
+    a {
+      float: right;
+      width: size;
+      height: size;
+      line-height: size;
+      font-size: size;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      transition: color .3s;
+    }     
+      :hover {
+        color: white;
+        
+      }   
+         a {
+          color: white;
+      }
+    

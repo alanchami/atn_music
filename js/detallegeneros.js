@@ -4,6 +4,8 @@ let objetoQuery = new URLSearchParams(queryString);
 
 var generoId = objetoQuery.get('id');
 
+
+
 fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+generoId+"/artists")
 .then(function(response)
 {
@@ -17,7 +19,6 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+genero
     for (const artista of artistaGenero) {
         contenedorArtistas.innerHTML += 
         `
-       
         <div class="genero"> 
           <a href="yatra.html?id=${artista.id}">
          <img class="imagen" src="${artista.picture_big}" alt=""> </a>
@@ -26,7 +27,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+genero
         </div> 
 
         `
-    if (contador == 10) {
+    if (contador == 9) {
         break;
     }
     

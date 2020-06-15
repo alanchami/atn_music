@@ -158,16 +158,14 @@ width: 100%;
     width: 100px;
 }
 .box{
-    padding-left: 380px;
+    margin: auto;
 }
 .container-1 input#search{
-    margin-top: 60px;
     width: 600px;
     height: 50px;
     background:black;
     border: none;
     font-size: 10pt;
-    padding-left: 45px;
     color:white;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -194,15 +192,10 @@ transition: background .55s ease;
  .container-1 input#search:-ms-input-placeholder {  
     color: #65737e;  
  }
- .container-1 .icon{
-    position: absolute;
-    margin-top: 70px;
-    margin-left: 10px;
-    z-index: 1;
-  }
+ 
   .container-1 input#search:hover,      e.container-1 input#search:focus, .container-1 input#search:active{
     outline:none;
-    background: black;
+    background: rgba(255, 255, 255, 0.336);
   }
 .footer2{
     width: 1340px;
