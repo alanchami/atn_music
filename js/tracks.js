@@ -38,22 +38,7 @@ contenedorData.innerHTML =`
   <button class="btn btn-primary" id="agregar"> + Agregar a tu Playlist </button>
 </div>
 </div>
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-<div class="star-rating">
-    <a href="#" class = "estrella"> ★ </a>
-    <a href="#" class = "estrella"> ★ </a>
-    <a href="#" class = "estrella"> ★ </a>
-    <a href="#" class = "estrella"> ★ </a>
-    <a href="#" class = "estrella"> ★ </a>
-=======
->>>>>>> f2b989d5285fcb2681230ef3d0afa227fe52795b
-</div>
-
-=======
-</div>
->>>>>>> 4857c56639eaf3db95040a0bc6517791b0ad6b02
 `
 let votacion = document.querySelector ('.estrella') ; 
 

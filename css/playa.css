@@ -5,6 +5,7 @@ body {
     background-color: rgb(20, 19, 19);;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .logo{
     width: 150px;
@@ -24,6 +25,27 @@ li a{
     color: white;
 }
 
+
+.h--1{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.h--2{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.h--3{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+
+
 .textos{
     padding-left: 740px;
     display:flex;
@@ -34,6 +56,34 @@ li a{
     padding-top: 20px;
     margin: auto 0;
 } 
+
+
+.h--1:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+.h--2:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+.h--3:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+ 
+
 ul{
     display: flex;
 }
@@ -45,15 +95,6 @@ ul{
     padding: 9px;
 }
 .footer2{
-<<<<<<< HEAD
-    width: 1364px;
-    height:120px ;
-    display: flex;
-    background-color: black;
-    margin-top: 50px;
-    padding-bottom: 0%;
-=======
->>>>>>> f2b989d5285fcb2681230ef3d0afa227fe52795b
     
     
 }
@@ -80,11 +121,6 @@ ul{
     list-style-type: none;
     padding: 15px;
 }
-<<<<<<< HEAD
-.audio { 
- 
-=======
->>>>>>> 4857c56639eaf3db95040a0bc6517791b0ad6b02
 
 .deezer{
     width: 150px;
