@@ -19,11 +19,10 @@ console.log(track);
 
 
 contenedorData.innerHTML =`
-
 <img class="playaimg" align= "left" src="${track.album.cover_xl}" alt="">
 <h1>${track.title}</h1>
-<h4>${track.artist.name} </h3>
-<h4> Album: ${track.album.title}</h3>
+ <a href "yatra.html?id=${track.artist.id}"> <h4>${track.artist.name}</h4> </a>
+<h4> Album: ${track.album.title}</h4>
 <h4>${track.duration}Seg</h4>
 <div class="ec-stars-wrapper">
 	<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
