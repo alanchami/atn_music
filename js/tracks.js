@@ -16,14 +16,18 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" +info)
 let contenedorData = document.querySelector(".playa")
 let track = data
 console.log(track);
-
+let ContenedorFooter = document.querySelector (".futer")  
 
 contenedorData.innerHTML =`
 <img class="playaimg" align= "left" src="${track.album.cover_xl}" alt="">
+<div class="textos2">
 <h1>${track.title}</h1>
-<a href= "yatra.html?id=${track.artist.id}"><h4>${track.artist.name}</h4></a>
-<a href= "detallealbumes.html?id=${track.album.id}"><h4>Album: ${track.album.title}</h4></a>
+<a href= "detalle-artista.html?id=${track.artist.id}">
+<h4>${track.artist.name}</h4></a>
+<a href= "detallealbumes.html?id=${track.album.id}">
+<h4>Album: ${track.album.title}</h4></a>
 <h4>${track.duration}Seg</h4>
+</div>
 <div class="ec-stars-wrapper">
 	<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
 	<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
@@ -39,57 +43,55 @@ contenedorData.innerHTML =`
 </div>
 
 `
-let votacion = document.querySelector ('.estrella') ; 
 
-votacion.onclick = function () { 
-    votacion.style.color = 'orange'
-}
 
-let ContenedorFooter = document.querySelector (".futer")  
-
-ContenedorFooter.innerHTML = `
+ContenedorFooter.innerHTML = ` 
 <footer>
-        <div class="footer2">
-        <img class="deezer" src="img2/Como llora foto.png" alt=""></div>
-         <div class="alumnos">
-          <audio class="audio" src="${track.preview}" controls="controls" type="audio/mpeg" preload="preload">
-          </audio>
-           
+   <div class="footer2">
+    <img class="deezer" src="img2/Como llora foto.png" alt=""></div>
+     <div class class="alumnos">
+   <audio  align="center" src="${track.preview}" controls="controls" type="audio/mpeg" preload="preload"></audio> 
+     </div>
+ </footer>
 
-          </div>
-        </div>
-     
-     </footer> 
+
 `
 }).catch(function(error){
     console.error(error)
 })
 
-let artistainfo = track.artist.id
+let artistId = cancion.artist.id
 
-fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistainfo+"/albums")
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistId+"/albums")
 .then(function(response){
     return response.json()
 })
 .then (function(data){
     let Albumes = data.data
-    let contenedorAlbumes= document.querySelector(".fila3");
+    let contenedorAlbumes= document.querySelector(".todo");
     console.log(Albumes);
     
     for (const albums of Albumes) {
          contenedorAlbumes.innerHTML += `
     
         
-            <div class="contenedor-imagen">
-                <a href="detalles-album.html?id=${albums.id}"><img src="${albums.cover_big}" alt="Imagen de album"></a>
-                <h3 class="texto-album">${albums.title}</h3>
-            </div>
+         <div class="todo">
+         <h1 class="newlanza" align="center">MAS CANCIONES DEL ARTISTA</h1>
+         <div>
+           <div class="nuevoslanzamientos1">
+              <a href="Yatra.html"><img class="inolvidable" src="img2/yatra.jpg" alt=""></a>
+             <a href="badbunny.html"><img class="inolvidable" src="img2/camilo.jpg" alt=""></a>
+             <a href="tini.html"><img class="inolvidable" src="img2/martina.jpg" alt=""></a>
+             <div>
+               
+           </div>
+         </div>
+         </div>  
+         </div>  
+            
     `
-    
-
     }
    
     }).catch(function(error){
         console.error(error)
     })
-    

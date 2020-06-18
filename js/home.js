@@ -10,7 +10,7 @@ let contenedorArtistas = document.querySelector ('.nuevoslanzamientos1')
 for (const artista of artistas) {
     contenedorArtistas.innerHTML += `
     <div class="nuevoslanzamientos1">
-    <div><a href="Yatra.html?id=${artista.id}"><img class="inolvidable" src="${artista.picture_xl}"
+    <div><a href="detalle-artista.html?id=${artista.id}"><img class="inolvidable" src="${artista.picture_xl}"
  alt=""></a> <div>
  <h5 align="center">${artista.type}</h5>
  <h4 align="center"> ${artista.name} </h4> </div>
@@ -54,21 +54,3 @@ for (const album of albums) {
     console.error(error)
 })
 
-var bounceIn = anime({
-    targets: '.letter__part',
-    translateY: {
-                  value: [-30, 0],
-                  duration: 900,
-          delay: 1000,
-                  elasticity: 600,
-                  easing: 'easeOutElastic'
-              },
-              opacity: {
-                  value: [0, 1],
-                  duration: 300,
-                  easing: 'linear',
-          delay: 1000
-              }
-    });
-
-  

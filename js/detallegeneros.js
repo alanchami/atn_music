@@ -5,6 +5,31 @@ let objetoQuery = new URLSearchParams(queryString);
 var generoId = objetoQuery.get('id');
 
 
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre")
+    .then(function(response){
+        return response.json()
+    })
+    .then(function(data){
+    
+    let contenedorGeneros = document.querySelector(".kaka");
+    let generos = data.data
+    
+    console.log(generos);
+    
+    
+    for (const genero of generos) {
+        contenedorGeneros.innerHTML +=
+        `
+       
+         <h1>${genero.name}</h1>
+        
+        `
+    }
+    
+    
+    }).catch(function(error){
+        console.error(error)
+    })
 
 fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+generoId+"/artists")
 .then(function(response)
@@ -19,8 +44,9 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+genero
     for (const artista of artistaGenero) {
         contenedorArtistas.innerHTML += 
         `
+    
         <div class="genero"> 
-          <a href="yatra.html?id=${artista.id}">
+          <a href="detalle-artista.html?id=${artista.id}">
          <img class="imagen" src="${artista.picture_big}" alt=""> </a>
          <h5>${artista.type}</h5>
          <h4>${artista.name}</h4>

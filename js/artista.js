@@ -38,8 +38,11 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+info+
         let contenedorPlaylist = document.querySelector(".electronica");
 
         for (const cancion of playlist) {
+           
             contenedorPlaylist.innerHTML +=`
-            <div class="song">
+            
+            <div class="song" id=${cancion.id}>
+            
         <p><audio  class="audio1" align="center" src="${cancion.preview}" controls="controls" type="audio/mpeg" preload="preload">
           <p class="">${cancion.title_short}</p>
           <p class= "">${cancion.album.title}</p> 
@@ -47,8 +50,17 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+info+
           
             `
         }
-    
-        
+        let divisionCancion = document.querySelectorAll('.song');
+        for (const cancion of divisionCancion) {
+            cancion.onclick = function (event) {
+                event.preventDefault();
+                window.location.href ="detalles-track.html?id="+this.id
+                
+            }
+        console.log(this)
+    }
+
+   
     }).catch(function(error){
         console.error(error)
     })
