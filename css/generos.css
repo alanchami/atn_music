@@ -24,8 +24,6 @@ body {
     height:120px ;
     display: flex; 
     background-color: black;
-   
-    
 }
 
 .h--1{
@@ -184,4 +182,86 @@ align-self: flex-start;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     text-decoration: underline;
+}
+@media (max-width:480px)
+{
+    .container{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 0 px;
+        width: 100px;
+        height: 100px;
+    }
+    
+
+.textos{
+    padding-left: 100px;
+    display:flex;
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 5px;
+    margin: auto 0;
+    padding-left: 0;
+    font-size: 10px;
+    padding: 0px;
+}
+.grid-container{
+
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: 1fr  ;
+    justify-content: center; 
+  background-color: rgba(37, 36, 36, 0.5);
+}
+.imagen {
+    width: 70%;
+    height: 60%;
+    gap: 20px;
+    border-radius:35px;
+    border-color:  white;
+    border-style: groove;
+}   
+ 
+h4 {
+    color: white;
+margin-left: 0;
+margin-top: 10px;
+display: flex;
+align-self: flex-start;
+font-size: 15px;
+  
+align-self: flex-start;
+
+}
+
+h5{
+    color: grey;
+margin-left: 0;
+padding-top: 2px;
+margin:auto;
+display: flex;
+align-self: flex-start;
+font-size: 12px;
+}
+.alumnos {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 10px;
+    padding-left: 80px;
+    margin: auto 0;
+}
+.alumnos li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.deezer{
+    width: 120px;
+    position: absolute;
+}
 }

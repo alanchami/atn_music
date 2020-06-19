@@ -21,6 +21,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+albumI
         let album = data
         let contenedorCanciones = document.querySelector(".nuevoslanzamientos1");
         console.log(album);
+       
         contenedorData.innerHTML =
     `
     <img class="playaimg" align= "left" src="${album.cover_xl}" alt="">
@@ -32,14 +33,12 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+albumI
 <h4>${album.release_date} </h4>
 
     `
-    
-    contenedorCanciones.innerHTML =
+    let CancionAlbum = document.querySelector (".cancionesalbum")
     `
-    <a href="Yatra.html"><img class="inolvidable" src="img2/yatra.jpg" alt=""></a>
-   <a href="badbunny.html"><img class="inolvidable" src="img2/camilo.jpg" alt=""></a>
-   <a href="tini.html"><img class="inolvidable" src="img2/martina.jpg" alt=""></a>
-    
+    <h3> ${data.title} </h3>
+<img src="${album.tracks}" alt="">
     `
+
 
 
 }).catch(function(error){

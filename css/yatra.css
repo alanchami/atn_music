@@ -13,16 +13,19 @@ body {
     display: flex;
     justify-content:space-between ;
 }
+
   
   
 .logo{
+    margin: 0;
     width: 150px;
     height: 110px;
 }
 
 .container{
+    border-bottom: solid rgb(20, 20, 20) 3px;
     max-width: 100%;
-    background-color: black;
+    background-color:black;
 }
 .h--1{
     transition: width 2s, height 2s, transform 2s;
@@ -52,13 +55,11 @@ body {
 
 
 .textos{
-    
     display:flex;
     text-align: right;
     text-decoration: none;
     list-style: none;
     text-decoration: none;
-    padding-top: 20px;
     margin: auto 0;
     
 }
@@ -87,6 +88,8 @@ body {
     -webkit-transform : scale(0.7);   /* Chrome - Safari */
     -o-transform : scale(0.7);        /* Opera */
 }
+
+
 
 
 
@@ -254,7 +257,6 @@ height: 90px;
 @media (max-width:480px)
 
 {
-
 .container{
     width: 100%;
 }
