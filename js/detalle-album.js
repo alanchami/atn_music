@@ -20,18 +20,18 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+albumI
         let contenedorData = document.querySelector(".playa");
         let album = data
         console.log(album);
-        
         contenedorData.innerHTML =
     `
     <img class="playaimg" align= "left" src="${album.cover_xl}" alt="">
+<h5>${album.type}</h5>
 <h1>${album.title}</h1>
-<h4>${album.artist.name} </h3>
-</div>
-    
-</div>
-
+<a href="detalle-artista.html?id=${album.artist.id}">
+<h4>${album.artist.name}</h4>
+</a>
+<h4>${album.release_date} </h4>
 
     `
+
 }).catch(function(error){
     console.error(error)
 })
