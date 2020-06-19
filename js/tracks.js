@@ -43,6 +43,38 @@ contenedorData.innerHTML =`
 </div>
 
 `
+let artistId = track.artist.id
+
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistId+"/albums")
+.then(function(response){
+    return response.json()
+})
+.then (function(data){
+    let Albumes = data.data
+    let contenedorAlbumes= document.querySelector(".todo");
+    console.log(Albumes);
+    
+    for (const albums of Albumes) {
+         contenedorAlbumes.innerHTML += `
+    
+         <h1 class="newlanza" align="center">MAS CANCIONES DEL ARTISTA</h1>
+         <div>
+           <div class="nuevoslanzamientos1">
+              <a href="detalles-track.html"?id=${albums.id}><img class="inolvidable" src="${albums.cover_big}" alt=""></a>
+              
+             <div>
+               
+           </div>
+         </div>
+         </div> 
+
+            
+    `
+    }
+   
+    }).catch(function(error){
+        console.error(error)
+    })
 
 
 ContenedorFooter.innerHTML = ` 
@@ -60,38 +92,35 @@ ContenedorFooter.innerHTML = `
     console.error(error)
 })
 
-let artistId = cancion.artist.id
+    let artistId = track.artist.id
 
-fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistId+"/albums")
-.then(function(response){
-    return response.json()
-})
-.then (function(data){
-    let Albumes = data.data
-    let contenedorAlbumes= document.querySelector(".todo");
-    console.log(Albumes);
-    
-    for (const albums of Albumes) {
-         contenedorAlbumes.innerHTML += `
-    
-        
-         <div class="todo">
-         <h1 class="newlanza" align="center">MAS CANCIONES DEL ARTISTA</h1>
-         <div>
-           <div class="nuevoslanzamientos1">
-              <a href="Yatra.html"><img class="inolvidable" src="img2/yatra.jpg" alt=""></a>
-             <a href="badbunny.html"><img class="inolvidable" src="img2/camilo.jpg" alt=""></a>
-             <a href="tini.html"><img class="inolvidable" src="img2/martina.jpg" alt=""></a>
-             <div>
-               
-           </div>
-         </div>
-         </div>  
-         </div>  
-            
-    `
-    }
-   
-    }).catch(function(error){
-        console.error(error)
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistId+"/albums")
+    .then(function(response){
+        return response.json()
     })
+    .then (function(data){
+        let Albumes = data.data
+        let contenedorAlbumes= document.querySelector(".todo");
+        console.log(Albumes);
+        
+        for (const albums of Albumes) {
+             contenedorAlbumes.innerHTML += `
+        
+             <h1 class="newlanza" align="center">MAS CANCIONES DEL ARTISTA</h1>
+             <div>
+               <div class="nuevoslanzamientos1">
+                  <a href="Yatra.html"?id=${albums.id}><img class="inolvidable" src="${albums.cover_big}" alt=""></a>
+
+                 <div>
+                   
+               </div>
+             </div>
+             </div> 
+
+                
+        `
+        }
+       
+        }).catch(function(error){
+            console.error(error)
+        })
