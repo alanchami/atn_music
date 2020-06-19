@@ -6,6 +6,7 @@ let objetoQuery = new URLSearchParams(queryString);
 
 let info = objetoQuery.get('id');
 
+
 fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" +info)
 .then(function(response){
     return response.json()
@@ -63,39 +64,33 @@ ContenedorFooter.innerHTML = `
 
 
 `
-}).catch(function(error){
-    console.error(error)
+let musicas =[track];
+let añadir =document.querySelector("#boton");
+
+añadir.addEventListener("click", function(){
+    if (window.localStorage.getItem("musicas") === null){
+
+        window.localStorage.setItem("musicas", JSON.stringify(musicas))
+        
+    }else{
+        let cancionjson = JSON.parse(window.localStorage.getItem("musicas"))
+        
+        cancionjson.push(track)
+
+        window.localStorage.setItem("musicas", JSON.stringify(cancionjson))
+        
+        console.log(cancionjson);
+        
+    }
 })
+    
 
-    let artistId = track.artist.id
-
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistId+"/albums")
-    .then(function(response){
-        return response.json()
-    })
-    .then (function(data){
-        let Albumes = data.data
-        let contenedorAlbumes= document.querySelector(".todo");
-        console.log(Albumes);
-        
-        for (const albums of Albumes) {
-             contenedorAlbumes.innerHTML += `
-        
-             <h1 class="newlanza" align="center">MAS CANCIONES DEL ARTISTA</h1>
-             <div>
-               <div class="nuevoslanzamientos1">
-                  <a href="Yatra.html"?id=${albums.id}><img class="inolvidable" src="${albums.cover_big}" alt=""></a>
-
-                 <div>
-                   
-               </div>
-             </div>
-             </div> 
-
-                
-        `
-        }
        
         }).catch(function(error){
             console.error(error)
         })
+        function s() {
+          if (window.localStorage.getItem("playlist") === null) {
+              window.localStorage.setItem("playlist", JSON.stringify(playlist))
+          }
+      }
