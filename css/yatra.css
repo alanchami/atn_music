@@ -171,6 +171,7 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
+    justify-content: space-around;
     border-style: solid; 
     border-color: rgba(255, 255, 255, 0.322);
     border-width: thin;

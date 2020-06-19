@@ -95,29 +95,7 @@ ContenedorFooter.innerHTML = `
                 
         `
         }
-
-
-        boton.onclick = function () {
-          //me traigo las pelis de localStorage
-          let pelisEnLocal = window.localStorage.getItem('meGustan');
-          //transformar a js ese string que esta en localStorage
-          let pelisArrayEnLocal = JSON.parse(pelisEnLocal);
-          // tengo que validar que no tenga nada, y si es asi creo un array desde cero
-          if (!pelisArrayEnLocal) {
-              pelisArrayEnLocal = []
-          }
-          //ahora le guardo la nueva peli
-          pelisArrayEnLocal.push(data);
-          window.localStorage.setItem('meGustan', JSON.stringify(pelisArrayEnLocal));
-
-      }
        
         }).catch(function(error){
             console.error(error)
         })
-
-        function s() {
-          if (window.localStorage.getItem("playlist") === null) {
-              window.localStorage.setItem("playlist", JSON.stringify(playlist))
-          }
-      }

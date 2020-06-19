@@ -9,7 +9,106 @@ body{
     background-size: cover;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.menu{
+    display: flex;
+    justify-content:space-between ;
+}
 
+  
+  
+.logo{
+    margin: 0;
+    width: 150px;
+    height: 110px;
+}
+
+.container{
+    border-bottom: solid rgb(20, 20, 20) 3px;
+    max-width: 100%;
+    background-color:black;
+}
+.h--1{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.h--2{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.h--3{
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+
+
+
+
+
+
+
+
+
+.textos{
+    display:flex;
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    margin: auto 0;
+    
+}
+
+.h--1:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+.h--2:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+.h--3:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(0.7);
+    -moz-transform : scale(0.7);      /* Firefox */
+    -webkit-transform : scale(0.7);   /* Chrome - Safari */
+    -o-transform : scale(0.7);        /* Opera */
+}
+
+
+
+
+li a{
+    text-decoration: none;
+    color: white;    
+    
+  
+}
+ul{
+    display: flex;
+}
+
+.container h3{
+   
+    background-color: black;
+    color: white;
+    padding: 9px;
+   
+}
 .logo{
     width: 150px;
     height: 110px;
@@ -359,11 +458,12 @@ background-color: rgba(29, 24, 24, 0.486);
 
 
 
-@media(max-width:375px)
+@media(max-width:480px)
 { 
     .container{
         width: 100%;
     }
+
     .logo{
         margin-left: 0 px;
         width: 100px;
@@ -383,8 +483,8 @@ background-color: rgba(29, 24, 24, 0.486);
         padding: 0px;
     }
     .box{
-        padding-left: 10px;
-        width: 2%;
+        padding-left: 0px;
+        width: 100px;
     }
 
     .newlanza a{

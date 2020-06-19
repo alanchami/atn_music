@@ -19,7 +19,6 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+albumI
         
         let contenedorData = document.querySelector(".playa");
         let album = data
-        let contenedorCanciones = document.querySelector(".nuevoslanzamientos1");
         console.log(album);
        
         contenedorData.innerHTML =
@@ -33,14 +32,42 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+albumI
 <h4>${album.release_date} </h4>
 
     `
-    let CancionAlbum = document.querySelector (".cancionesalbum")
-    `
-    <h3> ${data.title} </h3>
-<img src="${album.tracks}" alt="">
-    `
-
+    let cancionesAlbum = album.tracks.data
+    let contenedorPlaylist = document.querySelector(".electronica");
+    
+    console.log(cancionesAlbum);
+    
+    for (const cancion of cancionesAlbum) {
+        contenedorPlaylist.innerHTML +=`
+        
+        <div class="song" id=${cancion.id}>
+    <p><audio  class="audio1" align="center" src="${cancion.preview}" controls="controls" type="audio/mpeg" preload="preload">
+      <p >${cancion.title_short}</p>
+      <p >${cancion.title}</p> 
+      <p >${cancion.rank}</p>
+  </div>
+        
+        
+        
+        
+        
+        `
+    }
+    let divisionCancion = document.querySelectorAll('.song');
+        for (const cancion of divisionCancion) {
+            cancion.onclick = function (event) {
+                event.preventDefault();
+                window.location.href ="detalles-track.html?id="+this.id
+                
+            }
+        console.log(this)
+    }
 
 
 }).catch(function(error){
     console.error(error)
 })
+
+    
+
+    
