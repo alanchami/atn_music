@@ -38,43 +38,18 @@ contenedorData.innerHTML =`
 <br>
 <br>
 <div> 
-  <button class="btn btn-primary" id="agregar"> + Agregar a tu Playlist </button>
+  <button class="btn btn-primary" id="boton"> + Agregar a tu Playlist </button>
 </div>
 </div>
 
 `
-let artistId = track.artist.id
 
-fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+artistId+"/albums")
-.then(function(response){
-    return response.json()
-})
-.then (function(data){
-    let Albumes = data.data
-    let contenedorAlbumes= document.querySelector(".todo");
-    console.log(Albumes);
-    
-    for (const albums of Albumes) {
-         contenedorAlbumes.innerHTML += `
-    
-         <h1 class="newlanza" align="center">MAS CANCIONES DEL ARTISTA</h1>
-         <div>
-           <div class="nuevoslanzamientos1">
-              <a href="detalles-track.html"?id=${albums.id}><img class="inolvidable" src="${albums.cover_big}" alt=""></a>
-              
-             <div>
-               
-           </div>
-         </div>
-         </div> 
 
-            
-    `
-    }
-   
-    }).catch(function(error){
-        console.error(error)
-    })
+
+
+
+
+
 
 
 ContenedorFooter.innerHTML = ` 
@@ -120,7 +95,29 @@ ContenedorFooter.innerHTML = `
                 
         `
         }
+
+
+        boton.onclick = function () {
+          //me traigo las pelis de localStorage
+          let pelisEnLocal = window.localStorage.getItem('meGustan');
+          //transformar a js ese string que esta en localStorage
+          let pelisArrayEnLocal = JSON.parse(pelisEnLocal);
+          // tengo que validar que no tenga nada, y si es asi creo un array desde cero
+          if (!pelisArrayEnLocal) {
+              pelisArrayEnLocal = []
+          }
+          //ahora le guardo la nueva peli
+          pelisArrayEnLocal.push(data);
+          window.localStorage.setItem('meGustan', JSON.stringify(pelisArrayEnLocal));
+
+      }
        
         }).catch(function(error){
             console.error(error)
         })
+
+        function s() {
+          if (window.localStorage.getItem("playlist") === null) {
+              window.localStorage.setItem("playlist", JSON.stringify(playlist))
+          }
+      }

@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/playlsit.css">
-    <link rel="stylesheet" href="css/footer.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/playlsit.css">
+   
 </head>
 <body>
     <div class="container">
-        <header>
-            <ul>
+        <header class="menu">
                 <img class="logo" src="img2/logo.png" alt="">
-              <div  class="
-              textos">
-              <li><h3> <a href="home.html">Home</a></h3></li> 
-                <li><h3> <a href="playlist.html">Playlists</a></h3></li>
-                <li><h3 class="generosh3"> <a href="generos.html">Géneros musicales</a> </h3></li> 
+                <!--<svg class= "svga" viewBox="0 0 960 300">
+                  <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="40%">Enjoy Music!</text>
+                  </symbol>
                 
+                  <g class = "g-ants">
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                  </g>
+                </svg>-->
+               
+                <div  class="textos">
+                <div class="h--1"><li><h3> <a href="home.html">Home</a> </h3></li></div>
+                <div class="h--2"><li><h3><a href="playlist.html">Playlists</a></h3></li></div>
+              
+                <div class="h--3"><li><h3> <a href="generos.html">Géneros musicales</a> </h3></li></div> 
+            
               </div>
-            </ul>
-        
+               
         </header>
     </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
- <br>
- <br>
- <br>
-       
+
+
+
+
+
+    <div class="artistaar">
     </div>
-    
-    <br>
 
-
-<div class="contenedor">
-    <tr>
-
-    </tr>
-</div>
-
-</div>
-<main>
-<h1 class="arriba" align="center">Your Playlists</h1>
-<h2 class="generos" align="center"></h2>
-<div class="grid-container">
-<div class="genero"> 
-<a href="Hiphop.html"><img class="imagen" src="img2/hiphop1.jpg" alt=""></a>
-<h4 class="trap">Hip Hop</h4>
-</div> 
-<div class="genero"> 
-    <a href="rock.html"><img class="imagen" src="img2/playlist2.jpeg" alt=""></a>
-<h4 class="rock">Rock and Roll</h4>
-</div>
-<div class="genero">
-    <a href="Reggaeton.html"><img class="imagen" src="img2/playlist4.jpg" alt=""></a>
-   <h4 class="regga"> Reggaeton</h4>
-</div>
-<div class="genero">
-    <a href="electronica.html"><img class="imagen" src="img2/playlist5.jpg" alt=""></a>
-    <h4 class="electro">Electrónica</h4>
-</div>
-</div>
-<h1 class="abajo" align="center">¡Enjoy Music!</h1>
-
-<footer>
-    <div class="footer2">
-     <img class="deezer" src="img2/logo-deezer.png" alt="">
-      <div class="alumnos">
+    <h1 class="Titulo" align="center"> Top 5 Songs </h1>
+    <div class="electronica" >
+      <h2 align="center"></h2>
+      <div class="song-info"> 
+        <p class="">#</p>
+          <p class="">Titulo</p>
+          <p class="">Album</p> 
+          <p class="">Reproducciones</p>
+      </div>
+      <br>
+      <!-<div class="song"></a>
+        <p><audio  class="audio1" align="center" src="img2/videoplayback.mp4" controls="controls" type="audio/mpeg" preload="preload">
+          <p class="none">Rojo</p>
+          <p class="none">Colores</p> 
+          <p class="none">100.000.000</p>->
+      </div>
+  
+     
+      <footer>
+        <div class="footer2">
+         <img class="deezer" src="img2/logo-deezer.png" alt="">
+          <div class="alumnos">
 <ul>
-<li>Alan Chami</li>
-<li>Nicolas Mizrahi</li>
-<li>Tomas Falaq</li>
-
+ <li>Alan Chami</li>
+ <li>Nicolas Mizrahi</li>
+ <li>Tomas Falaq</li>
+ 
 
 </ul>
-      </div>
-    </div>
- </footer>
+          </div>
+        </div>
+     </footer>
+    
+  
+    
+      
+    
+
+    <script src="js/playlist.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
