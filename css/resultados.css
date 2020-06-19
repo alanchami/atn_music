@@ -7,6 +7,7 @@ body{
     background-color: rgb(20, 19, 19);;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .logo{
@@ -31,6 +32,50 @@ body{
         margin-top: 30px;
     }
 
+    .h--1{
+        transition: width 2s, height 2s, transform 2s;
+        -moz-transition: width 2s, height 2s, -moz-transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+        -o-transition: width 2s, height 2s,-o-transform 2s;
+    }
+    .h--2{
+        transition: width 2s, height 2s, transform 2s;
+        -moz-transition: width 2s, height 2s, -moz-transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+        -o-transition: width 2s, height 2s,-o-transform 2s;
+    }
+    .h--3{
+        transition: width 2s, height 2s, transform 2s;
+        -moz-transition: width 2s, height 2s, -moz-transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+        -o-transition: width 2s, height 2s,-o-transform 2s;
+    }
+
+    .h--1:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+        transform : scale(0.7);
+        -moz-transform : scale(0.7);      /* Firefox */
+        -webkit-transform : scale(0.7);   /* Chrome - Safari */
+        -o-transform : scale(0.7);        /* Opera */
+    }
+    .h--2:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+        transform : scale(0.7);
+        -moz-transform : scale(0.7);      /* Firefox */
+        -webkit-transform : scale(0.7);   /* Chrome - Safari */
+        -o-transform : scale(0.7);        /* Opera */
+    }
+    .h--3:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+        transform : scale(0.7);
+        -moz-transform : scale(0.7);      /* Firefox */
+        -webkit-transform : scale(0.7);   /* Chrome - Safari */
+        -o-transform : scale(0.7);        /* Opera */
+    }
+    
 h5{
     color: grey;
 }
@@ -316,22 +361,64 @@ background-color: rgba(29, 24, 24, 0.486);
 
 @media(max-width:375px)
 { 
-.container{
-    width: 335px;
-}
-.logo{
-    margin left: 0px;
-    width: 100px;
-    height: 100px;
-}
-.textos{
-    padding-left: 0;
-    font-size: 8px;
-}
+    .container{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 0 px;
+        width: 100px;
+        height: 100px;
+    }
+    .textos{
+        padding-left: 100px;
+        display:flex;
+        text-align: right;
+        text-decoration: none;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 5px;
+        margin: auto 0;
+        padding-left: 0;
+        font-size: 10px;
+        padding: 0px;
+    }
+    .box{
+        padding-left: 10px;
+        width: 2%;
+    }
+
+    .newlanza a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    .resultadosca{
+        display: grid;
+        grid-template-columns: 1fr;
 
 
+    }
+    
 
-
+     .alumnos {
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+        font-size: 10px;
+        padding-left: 80px;
+        margin: auto 0;
+    }
+    .alumnos li{
+        list-style-type: none;
+        padding: 10px;
+    }
+    
+    .deezer{
+        width: 120px;
+        position: absolute;
+    }
 
 
 
